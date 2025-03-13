@@ -80,7 +80,7 @@ namespace SprayProcessSCADASystemOnWinform {
             //注入sqlsugar
             service.AddSqlSugarSetUp(dbType, connectionString);
 
-            //获取NLog配置信息
+            //获取NLog配置信息 
             var nlogConfig = configuration.GetSection("NLog");
             //设置NLog配置
             LogManager.Configuration = new NLogLoggingConfiguration(nlogConfig);
