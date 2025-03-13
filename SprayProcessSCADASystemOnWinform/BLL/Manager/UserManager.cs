@@ -35,6 +35,10 @@ namespace BLL {
 
         public async Task<BaseResult> AddUserAsync(UserAddDto request) {
             var entity = request.Adapt<UserEntity>();
+            var isExist = await _userService.IsExistAsync(i => i.UserName == entity.UserName);
+            if (isExist) {
+                return new BaseResult() { Status = SystemEnums.Result.Fail, Message = "用户已存在" };
+            }
             var res = await _userService.InsertAsync(entity);
             if (res <= 0) {
                 return new BaseResult() { Status = SystemEnums.Result.Fail, Message = $"新增用户{entity.UserName}失败" };

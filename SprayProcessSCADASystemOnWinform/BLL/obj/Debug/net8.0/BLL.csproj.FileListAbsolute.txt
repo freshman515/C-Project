@@ -12,6 +12,7 @@ D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\BLL\obj\Debug\net8.0\BLL.G
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\BLL\obj\Debug\net8.0\BLL.sourcelink.json
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\BLL\obj\Debug\net8.0\BLL.dll
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\BLL\obj\Debug\net8.0\refint\BLL.dll

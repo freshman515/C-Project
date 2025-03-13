@@ -8,6 +8,7 @@ D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Helper\obj\Debug\net8.0\He
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Helper\obj\Debug\net8.0\Helper.AssemblyInfoInputs.cache
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Helper\obj\Debug\net8.0\Helper.AssemblyInfo.cs
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Helper\obj\Debug\net8.0\Helper.csproj.CoreCompileInputs.cache
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Helper\obj\Debug\net8.0\Helper.sourcelink.json
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Helper\obj\Debug\net8.0\Helper.csproj.Up2Date
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Helper\obj\Debug\net8.0\Helper.dll
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Helper\obj\Debug\net8.0\refint\Helper.dll

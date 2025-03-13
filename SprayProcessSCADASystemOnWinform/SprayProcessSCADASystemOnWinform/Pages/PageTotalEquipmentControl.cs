@@ -17,6 +17,8 @@ namespace SprayProcessSCADASystemOnWinform {
         public PageTotalEquipmentControl(ILogger<PageTotalEquipmentControl> logger) {
             InitializeComponent();
             this.logger = logger;
+            //绑定扩展委托，让其它地方也能使用这个方法
+            LogExtension.ShowMessage = ShowLog;
         }
 
         private void btn_Control_Comman_Click(object sender, EventArgs e) {

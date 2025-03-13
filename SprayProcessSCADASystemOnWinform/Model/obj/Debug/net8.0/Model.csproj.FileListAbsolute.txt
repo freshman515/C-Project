@@ -6,6 +6,7 @@ D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Model\obj\Debug\net8.0\Mod
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Model\obj\Debug\net8.0\Model.AssemblyInfoInputs.cache
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Model\obj\Debug\net8.0\Model.AssemblyInfo.cs
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Model\obj\Debug\net8.0\Model.csproj.CoreCompileInputs.cache
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Model\obj\Debug\net8.0\Model.sourcelink.json
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Model\obj\Debug\net8.0\Model.csproj.Fody.CopyLocal.cache
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Model\obj\Debug\net8.0\Model.csproj.Fody.RuntimeCopyLocal.cache
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\Model\obj\Debug\net8.0\Model.dll

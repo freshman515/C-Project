@@ -11,6 +11,8 @@ using DAL;
 using SqlSugar;
 using Model;
 using System.Windows.Forms;
+using BLL;
+using Sunny.UI;
 
 namespace SprayProcessSCADASystemOnWinform {
     internal static class Program {
@@ -28,7 +30,7 @@ namespace SprayProcessSCADASystemOnWinform {
             Globals.ServiceProvider = serviceProvider;
             ApplicationConfiguration.Initialize();
 
-            var frmMain = serviceProvider.GetRequiredService<FrmMain>();
+          
 
             var db=Globals.ServiceProvider.GetRequiredService<ISqlSugarClient>();
 #if DEBUG   //只有在debug模式下才能用，因为它会根据实体改变表结构
@@ -38,25 +40,35 @@ namespace SprayProcessSCADASystemOnWinform {
             db.CodeFirst.SetStringDefaultLength(200)
                 .InitTables(typeof(AuthEntity), typeof(UserEntity), typeof(DataEntity), typeof(RecipeEntity));
 #endif
+            var frmMain = serviceProvider.GetRequiredService<FrmMain>();
             Application.Run(frmMain);
         }
 
         private static void ConfigureService(ServiceCollection service) {
+            var temp = typeof(UserManager);//为了确保bll.dll被加载
             // service.AddDependencyInjection(new List<Assembly>() { typeof(Program).Assembly,});
+
+            //注册所有服务
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies(); // 获取所有加载的程序集
+            var types = assemblies
+                .SelectMany(a => a.GetTypes()) // 遍历所有程序集里的类型 SelectMany() 的作用是 把多个程序集的类型合并到一个大列表中，
+                .Where(t => typeof(IScopedSelfDependency).IsAssignableFrom(t) && !t.IsInterface && !t.IsAbstract);
+            //typeof(IScopedSelfDependency).IsAssignableFrom(t)：如果t继承了或实现了IScopedSelfDependency就返回true
+            //t.IsInterface && !t.IsAbstract 忽略掉接口和抽象类
+            foreach (var type in types) {
+                service.AddScoped(type); // 确保这里是 AddScoped
+            }
+
+            //注册Page页面
+            var types2 = assemblies
+                .SelectMany(a => a.GetTypes())
+                .Where(t=>typeof(UIPage).IsAssignableFrom(t) && !t.IsAbstract && !t.IsInterface);
+            foreach (var type in types2) {
+                service.AddSingleton(type);
+            }
+            //注册
             service.AddSingleton<FrmMain>();
-            service.AddSingleton<PageTotalEquipmentControl>();
-            service.AddSingleton<PageUserManage>();
-            service.AddSingleton<PageSystemParameterSet>();
-            service.AddSingleton<PageEquipmentMonitor>();
-            service.AddSingleton<PageEquipmentMonitor2>();
-            service.AddSingleton<PageEquipmentMonitor3>();
-            service.AddSingleton<PageAuthManage>();
-            service.AddSingleton<PageChartManage>();
-            service.AddSingleton<PageLogManage>();
-            service.AddSingleton<PageRecipeManage>();
-            service.AddSingleton<PageReportManage>();
-
-
+                    
             //注册json配置
             IConfigurationBuilder cfgBuilder = new ConfigurationBuilder().
                 SetBasePath(Environment.CurrentDirectory).AddJsonFile("appsettings.json");

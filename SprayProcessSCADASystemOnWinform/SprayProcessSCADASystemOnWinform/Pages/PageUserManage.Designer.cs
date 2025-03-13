@@ -35,7 +35,6 @@
             uiLabel4 = new Sunny.UI.UILabel();
             txt_EnterPassword = new Sunny.UI.UITextBox();
             uiLabel5 = new Sunny.UI.UILabel();
-            cb_Auth = new Sunny.UI.UITextBox();
             txt_Password = new Sunny.UI.UITextBox();
             btn_AddUser = new Sunny.UI.UISymbolButton();
             btn_Update = new Sunny.UI.UISymbolButton();
@@ -45,6 +44,7 @@
             UserName = new DataGridViewTextBoxColumn();
             UserPassword = new DataGridViewTextBoxColumn();
             Role = new DataGridViewTextBoxColumn();
+            cb_Auth = new Sunny.UI.UIComboBox();
             ((System.ComponentModel.ISupportInitialize)dgv_User).BeginInit();
             SuspendLayout();
             // 
@@ -131,20 +131,6 @@
             uiLabel5.Text = "权限选择";
             uiLabel5.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // cb_Auth
-            // 
-            cb_Auth.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            cb_Auth.Location = new Point(198, 295);
-            cb_Auth.Margin = new Padding(4, 5, 4, 5);
-            cb_Auth.MinimumSize = new Size(1, 16);
-            cb_Auth.Name = "cb_Auth";
-            cb_Auth.Padding = new Padding(5);
-            cb_Auth.ShowText = false;
-            cb_Auth.Size = new Size(300, 58);
-            cb_Auth.TabIndex = 1;
-            cb_Auth.TextAlignment = ContentAlignment.MiddleLeft;
-            cb_Auth.Watermark = "权限选择";
-            // 
             // txt_Password
             // 
             txt_Password.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
@@ -171,6 +157,7 @@
             btn_AddUser.TabIndex = 2;
             btn_AddUser.Text = "添加用户";
             btn_AddUser.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_AddUser.Click += btn_AddUser_Click;
             // 
             // btn_Update
             // 
@@ -286,15 +273,34 @@
             Role.ReadOnly = true;
             Role.Width = 290;
             // 
+            // cb_Auth
+            // 
+            cb_Auth.DataSource = null;
+            cb_Auth.FillColor = Color.White;
+            cb_Auth.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            cb_Auth.ItemHeight = 40;
+            cb_Auth.ItemHoverColor = Color.FromArgb(155, 200, 255);
+            cb_Auth.ItemSelectForeColor = Color.FromArgb(235, 243, 255);
+            cb_Auth.Location = new Point(198, 295);
+            cb_Auth.Margin = new Padding(4, 5, 4, 5);
+            cb_Auth.MinimumSize = new Size(63, 0);
+            cb_Auth.Name = "cb_Auth";
+            cb_Auth.Padding = new Padding(0, 0, 30, 2);
+            cb_Auth.Size = new Size(300, 58);
+            cb_Auth.SymbolSize = 24;
+            cb_Auth.TabIndex = 4;
+            cb_Auth.TextAlignment = ContentAlignment.MiddleLeft;
+            cb_Auth.Watermark = "权限选择";
+            // 
             // PageUserManage
             // 
             AutoScaleMode = AutoScaleMode.None;
             ClientSize = new Size(1508, 831);
+            Controls.Add(cb_Auth);
             Controls.Add(dgv_User);
             Controls.Add(btn_Delete);
             Controls.Add(btn_Update);
             Controls.Add(btn_AddUser);
-            Controls.Add(cb_Auth);
             Controls.Add(uiLabel5);
             Controls.Add(txt_EnterPassword);
             Controls.Add(uiLabel4);
@@ -319,7 +325,6 @@
         private Sunny.UI.UILabel uiLabel4;
         private Sunny.UI.UITextBox txt_EnterPassword;
         private Sunny.UI.UILabel uiLabel5;
-        private Sunny.UI.UITextBox cb_Auth;
         private Sunny.UI.UITextBox txt_Password;
         private Sunny.UI.UISymbolButton btn_AddUser;
         private Sunny.UI.UISymbolButton btn_Update;
@@ -329,5 +334,6 @@
         private DataGridViewTextBoxColumn UserName;
         private DataGridViewTextBoxColumn UserPassword;
         private DataGridViewTextBoxColumn Role;
+        private Sunny.UI.UIComboBox cb_Auth;
     }
 }
