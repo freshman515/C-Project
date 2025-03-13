@@ -1,0 +1,11 @@
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\bin\Debug\net8.0\MyToDo.Shared.deps.json
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\bin\Debug\net8.0\MyToDo.Shared.dll
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\bin\Debug\net8.0\MyToDo.Shared.pdb
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\obj\Debug\net8.0\MyToDo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\obj\Debug\net8.0\MyToDo.Shared.AssemblyInfoInputs.cache
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\obj\Debug\net8.0\MyToDo.Shared.AssemblyInfo.cs
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\obj\Debug\net8.0\MyToDo.Shared.csproj.CoreCompileInputs.cache
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\obj\Debug\net8.0\MyToDo.Shared.dll
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\obj\Debug\net8.0\refint\MyToDo.Shared.dll
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\obj\Debug\net8.0\MyToDo.Shared.pdb
+D:\pragma\C# Project\MyToDo\MyToDo.Shared\obj\Debug\net8.0\ref\MyToDo.Shared.dll

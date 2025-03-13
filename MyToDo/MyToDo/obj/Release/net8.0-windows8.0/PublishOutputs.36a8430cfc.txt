@@ -1,0 +1,16 @@
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\MyToDo.exe
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\MyToDo.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\MyToDo.deps.json
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\MyToDo.runtimeconfig.json
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\MyToDo.pdb
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\DryIoc.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\MaterialDesignColors.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\MaterialDesignThemes.Wpf.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\Microsoft.Xaml.Behaviors.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\Newtonsoft.Json.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\Prism.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\Prism.DryIoc.Wpf.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\Prism.Wpf.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\RestSharp.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\MyToDo.Shared.dll
+D:\pragma\C# Project\MyToDo\MyToDo\bin\Release\net8.0-windows8.0\publish\MyToDo.Shared.pdb

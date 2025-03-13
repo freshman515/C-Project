@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyToDo", "MyToDo\MyToDo.csproj", "{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyToDo.Api", "MyToDo.Api\MyToDo.Api.csproj", "{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyToDo.Shared", "MyToDo.Shared\MyToDo.Shared.csproj", "{4222E30A-FF87-498D-8146-147CA8DD7A1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4222E30A-FF87-498D-8146-147CA8DD7A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4222E30A-FF87-498D-8146-147CA8DD7A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4222E30A-FF87-498D-8146-147CA8DD7A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4222E30A-FF87-498D-8146-147CA8DD7A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
