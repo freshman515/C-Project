@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL {
+namespace DAL {
     //T 继承 BaseEntity
     //T 有无参构造函数
     public class BaseService<T> where T : BaseEntity, new() {
@@ -26,13 +26,13 @@ namespace BLL {
         public virtual async Task<bool> UpdateAsync(T model) {
             try {
                 var runsql = DB.SqlSugarClient.Updateable(model);
-                int rows =  await runsql.ExecuteCommandAsync();
+                int rows = await runsql.ExecuteCommandAsync();
                 return rows > 0;
             } catch (Exception) {
 
                 throw;
             }
-        } 
+        }
         public virtual async Task<bool> DeleteAsync(T model) {
             try {
 
@@ -47,10 +47,16 @@ namespace BLL {
         //Expression<> 是 表达式树，它不是直接的委托，而是一种可以被解析为 SQL 查询的结构。
         //where 作为参数传递进方法后，会被 ORM（如 SqlSugar）解析成 SQL 语句，用于数据库查询。
         public virtual async Task<T> GetByOneAsync(Expression<Func<T, bool>> where) {
-            //相当于：SELECT * FROM 表名 WHERE 条件
-            var runsql = DB.SqlSugarClient.Queryable<T>().Where(where);
-            //SELECT TOP 1 * FROM 表名 WHERE 条件
-            return await runsql.FirstAsync();
+            try {
+                //相当于：SELECT * FROM 表名 WHERE 条件
+                var runsql = DB.SqlSugarClient.Queryable<T>().Where(where);
+                //SELECT TOP 1 * FROM 表名 WHERE 条件
+                return await runsql.FirstAsync();
+
+            } catch (Exception) {
+
+                throw;
+            }
         }
 
         /// <summary>
@@ -58,7 +64,7 @@ namespace BLL {
         /// </summary>
         /// <param name="where"></param>
         /// <returns></returns>
-        public virtual async Task<List<T>> GetListAsync(Expression<Func<T,bool>> where) {
+        public virtual async Task<List<T>> GetListAsync(Expression<Func<T, bool>> where) {
             var runsql = DB.SqlSugarClient.Queryable<T>().Where(where);
             return await runsql.ToListAsync();
         }

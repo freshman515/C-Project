@@ -20,6 +20,9 @@ namespace Helper {
             操作员,
             访客
         }
+        public enum Result {
+            Fail =0, Success =1,
+        }
 
     }
 }
