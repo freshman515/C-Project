@@ -70,7 +70,6 @@ namespace BLL {
             }
             var res = await _recipeService.GetByOneAsync(i => i.Id == entity.Id);
             return new BaseResult<QueryRecipeResultDto> { Data = new List<QueryRecipeResultDto> { res.Adapt<QueryRecipeResultDto>() } };
-
         }
     }
 }
