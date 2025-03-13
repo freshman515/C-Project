@@ -1,0 +1,17 @@
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\bin\Debug\net8.0\DAL.dll
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\bin\Debug\net8.0\DAL.pdb
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\bin\Debug\net8.0\Helper.dll
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\bin\Debug\net8.0\Model.dll
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\bin\Debug\net8.0\Helper.pdb
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\bin\Debug\net8.0\Model.pdb
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\DAL.dll
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\DAL.pdb
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\DAL\obj\Debug\net8.0\ref\DAL.dll

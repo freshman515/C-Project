@@ -1,0 +1,399 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj": {}
+  },
+  "projects": {
+    "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\22004\\.nuget\\packages\\",
+        "outputPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\software\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\22004\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\22004\\.nuget\\packages\\",
+        "outputPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\software\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\22004\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\Helper.csproj": {
+                "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\Helper.csproj"
+              },
+              "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\Model.csproj": {
+                "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\Helper.csproj",
+        "projectName": "Helper",
+        "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\Helper.csproj",
+        "packagesPath": "C:\\Users\\22004\\.nuget\\packages\\",
+        "outputPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\software\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\22004\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\Model.csproj": {
+                "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\22004\\.nuget\\packages\\",
+        "outputPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\software\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\22004\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "HZY.Framework.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.56, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Masuit.Tools.Core": {
+              "target": "Package",
+              "version": "[2025.1.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.182, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj",
+        "projectName": "SprayProcessSCADASystemOnWinform",
+        "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj",
+        "packagesPath": "C:\\Users\\22004\\.nuget\\packages\\",
+        "outputPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\software\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\22004\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "IoTClient": {
+              "target": "Package",
+              "version": "[1.0.42, )"
+            },
+            "MiniExcel": {
+              "target": "Package",
+              "version": "[1.38.0, )"
+            },
+            "SunnyUI": {
+              "target": "Package",
+              "version": "[3.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
