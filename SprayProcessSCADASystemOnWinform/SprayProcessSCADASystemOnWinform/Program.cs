@@ -39,7 +39,6 @@ namespace SprayProcessSCADASystemOnWinform {
                 .InitTables(typeof(AuthEntity), typeof(UserEntity), typeof(DataEntity), typeof(RecipeEntity));
 #endif
             Application.Run(frmMain);
-
         }
 
         private static void ConfigureService(ServiceCollection service) {
