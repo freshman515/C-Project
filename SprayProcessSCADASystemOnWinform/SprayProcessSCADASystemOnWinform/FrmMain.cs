@@ -1,3 +1,4 @@
+using BLL;
 using Castle.Components.DictionaryAdapter;
 using Helper;
 using HZY.Framework.DependencyInjection;
@@ -7,29 +8,50 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using MiniExcelLibs;
 using Model;
+using SprayProcessSCADASystemOnWinform.UserControls;
 using Sunny.UI;
-
+using Timer = System.Timers.Timer;
 namespace SprayProcessSCADASystemOnWinform {
     //当你多次请求 SingletonService，它都会返回同一个实例：
     public partial class FrmMain : UIHeaderAsideMainFooterFrame {
 
         #region 成员变量
         private readonly ILogger<FrmMain> logger;
+        private readonly UserManager userManager;
+        private readonly AuthManager authManager;
         private bool plcIsConnected = false;
+        private Timer timer = new Timer();
         private CancellationTokenSource cts = new CancellationTokenSource();
+        private Dictionary<string, Control> pageControls = new Dictionary<string, Control>() {
+            {"控制模块",Globals.ServiceProvider.GetRequiredService<PageTotalEquipmentControl>() },
+            {"用户模块",Globals.ServiceProvider.GetRequiredService<PageUserManage>() },
+            {"权限模块",Globals.ServiceProvider.GetRequiredService<PageAuthManage>() },
+            {"监控模块",Globals.ServiceProvider.GetRequiredService<PageEquipmentMonitor>() },
+            {"监控模块2",Globals.ServiceProvider.GetRequiredService<PageEquipmentMonitor2>() },
+            {"监控模块3",Globals.ServiceProvider.GetRequiredService<PageEquipmentMonitor3>() },
+            {"配方模块",Globals.ServiceProvider.GetRequiredService<PageRecipeManage>() },
+            {"日志模块",Globals.ServiceProvider.GetRequiredService<PageLogManage>() },
+            {"报表模块",Globals.ServiceProvider.GetRequiredService<PageReportManage>() },
+            {"图表模块",Globals.ServiceProvider.GetRequiredService<PageChartManage>() },
+            {"参数模块",Globals.ServiceProvider.GetRequiredService<PageSystemParameterSet>() }
+        };
+        private List<string> AlarmList = new List<string>();
         #endregion
 
         #region 初始化
-        public FrmMain(ILogger<FrmMain> logger) {
+        public FrmMain(ILogger<FrmMain> logger, UserManager userManager, AuthManager authManager) {
             InitializeComponent();
             //用代码调试的方式创建一个config.ini文件，创建完成后就可以删掉
             // Globals.IniFile.Write("PLC参数", "变量地址表", Application.StartupPath + "\\PLC_Var_config.xlsx");
             this.logger = logger;
+            this.userManager = userManager;
+            this.authManager = authManager;
+            this.lbl_User.Text = "访客";
             Init();
             this.Closed += (s, e) => {
                 Globals.SiemensClient.Close();
             };
-           
+
         }
         public override void Init() {
             //初始化侧边栏
@@ -40,7 +62,54 @@ namespace SprayProcessSCADASystemOnWinform {
             InitConfig();
             //初始化PLC客户端
             InitPlcClient();
+            InitOther();
         }
+
+        private void InitOther() {
+            timer.Interval = 500;
+            timer.Elapsed += Timer_Elapsed;
+            timer.Start();
+        }
+
+        private void Timer_Elapsed(object? sender, System.Timers.ElapsedEventArgs e) {
+            if (!plcIsConnected) {
+                return;
+            }
+            //InvokeRequired 用于判断 当前代码是否运行在 UI 线程。如果 true，说明当前代码在非 UI 线程运行，需要用 Invoke 切回 UI 线程
+            if (this.InvokeRequired) {
+                //让 UI 线程执行代码
+                this.Invoke(() => {
+
+                    this.lbl_ProducteCount.Text = Globals.DataDic[lbl_ProducteCount.TagString].ToString();
+                    this.lbl_BadCount.Text = Globals.DataDic[lbl_BadCount.TagString].ToString();
+                    this.lbl_Beat.Text = Globals.DataDic[lbl_Beat.TagString].ToString()+"S";
+                    this.lbl_TotalAlarm.Text = Globals.DataDic[lbl_TotalAlarm.TagString].ToString();
+                    this.lbl_Temperature.Text = Globals.DataDic[lbl_Temperature.TagString].ToString()+ "°C";
+                    this.lbl_Humidness.Text = Globals.DataDic[lbl_Humidness.TagString].ToString()+"%";
+
+                    //CPU和内存
+                    string CPUstr = RuntimeStatusHelper.DataManager.GetCpuUtilization();
+                    string MemoryStr = RuntimeStatusHelper.DataManager.GetMemoryUtilization().Replace("G", "");
+                    string NeiResult = (double.Parse(MemoryStr.Split('/')[0]) / double.Parse(MemoryStr.Split('/')[1]) * 100).ToString("f1") + "%";
+                    this.lbl_CPUInformation.Text = double.Parse(CPUstr).ToString("f1") + "%";
+                    this.lbl_MemoryInformation.Text = NeiResult;
+
+                    //时间
+                    this.lbl_Time.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+                    //报警
+                });
+            } else {
+                this.lbl_ProducteCount.Text = Globals.DataDic[lbl_ProducteCount.TagString].ToString();
+                this.lbl_BadCount.Text = Globals.DataDic[lbl_BadCount.TagString].ToString();
+                this.lbl_Beat.Text = Globals.DataDic[lbl_Beat.TagString].ToString();
+                this.lbl_TotalAlarm.Text = Globals.DataDic[lbl_TotalAlarm.TagString].ToString();
+
+            }
+
+
+        }
+
         private void InitConfig() {
             //读取表格的路径
             Globals.PlcVarConfigPath = Globals.IniFile.ReadString("PLC参数", "变量表地址", Application.StartupPath + "\\PLC_Var_config.xlsx");
@@ -76,6 +145,10 @@ namespace SprayProcessSCADASystemOnWinform {
                 Globals.DataDic.Add(item.名称, "NA");
                 //初始化变量写入字典  名词-地址
                 Globals.WriteDic.Add(item.名称, item.PLC地址);
+                //添加报警集和
+                if (item.名称.EndsWith("报警")&& !item.名称.Equals("累计报警")) {
+                    AlarmList.Add(item.名称);
+                }
             }
             //初始化PLC  西门子客户端
             Globals.SiemensClient = new IoTClient.Clients.PLC.SiemensClient(Globals.CpuType, Globals.IPAddress, Globals.Port, Globals.Slot, Globals.Rack, Globals.ConnectTimeOut);
@@ -106,6 +179,7 @@ namespace SprayProcessSCADASystemOnWinform {
                             if (readResult.IsSucceed) {
                                 //赋值
                                 //把地址-值 的字典中的值赋值给 名称-值 字典中的值,就得到了plc的值
+                                //这个值为：1代表true 0代表false
                                 foreach (var item in plcVarList) {
                                     Globals.DataDic[item.名称] = readResult.Value[item.PLC地址];
                                 }
@@ -255,7 +329,7 @@ namespace SprayProcessSCADASystemOnWinform {
 
         #region 移动窗口
         private Point mPoint;
-   
+
 
         private void Panel_MouseDown(object sender, MouseEventArgs e) {
             mPoint = new Point(e.X, e.Y);
@@ -267,6 +341,86 @@ namespace SprayProcessSCADASystemOnWinform {
         }
         #endregion
 
+        private void pictureBox2_Click(object sender, EventArgs e) {
+            //把Aside折叠起来
+            Aside.CollapseAll();
+            Aside.SelectFirst();
+            var formLogion = Globals.ServiceProvider.GetRequiredService<LoginForm>();
+            formLogion.ShowDialog();
+            if (formLogion.IsLogin) {
+                //更新登录信息
+                this.lbl_User.Text = formLogion.UserName;
+                //控制权限
+                foreach (var control in pageControls.Values) {
+                    control.Enabled = true;
+                }
+
+            }
+        }
+
+        /// <summary>
+        /// 点击一次侧边栏模块，就查找该用户是否有这个模块的权限
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void Aside_BeforeExpand(object sender, TreeViewCancelEventArgs e) {
+            string modeName = e.Node.Text;//得到mode的名字
+            string user = this.lbl_User.Text;
+
+            //得到权限
+            var roleRes = await userManager.GetByUserAuthAsync(new UserQueryAuthDto() { UserName = user });
+            if (roleRes.Status == SystemEnums.Result.Success) {
+                if (roleRes.Data[0].Role != "管理员") {
+                    var authRes = await authManager.GetAuthAsync(new QueryAuthDto { Role = roleRes.Data[0].Role });
+                    if (authRes.Status == SystemEnums.Result.Success) {
+                        UpdateControlAccess(modeName, authRes.Data[0], pageControls);
+                    }
+                }
+            }
+
+
+        }
+
+        private void UpdateControlAccess(string modeName, QueryAuthResultDto authDto, Dictionary<string, Control> pageControls) {
+            switch (modeName) {
+                case "控制模块":
+                    pageControls["控制模块"].Enabled = authDto.ControlModule;
+                    break;
+
+                case "用户模块":
+                    pageControls["用户模块"].Enabled = false;
+                    pageControls["权限模块"].Enabled = false;
+                    break;
+
+                case "监控模块":
+                    pageControls["监控模块"].Enabled = authDto.MonitorModule;
+                    pageControls["监控模块2"].Enabled = authDto.MonitorModule;
+                    pageControls["监控模块3"].Enabled = authDto.MonitorModule;
+                    break;
+
+                case "配方模块":
+                    pageControls["配方模块"].Enabled = authDto.RecipeModule;
+                    break;
+
+                case "日志模块":
+                    pageControls["日志模块"].Enabled = authDto.LogModule;
+                    break;
+
+                case "报表模块":
+                    pageControls["报表模块"].Enabled = authDto.ReportModule;
+                    break;
+
+                case "图表模块":
+                    pageControls["图表模块"].Enabled = authDto.ChartModule;
+                    break;
+
+                case "参数模块":
+                    pageControls["参数模块"].Enabled = authDto.ParamModule;
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 
 }

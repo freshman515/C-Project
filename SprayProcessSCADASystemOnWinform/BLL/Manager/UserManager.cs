@@ -1,5 +1,6 @@
 ﻿using DAL;
 using Helper;
+using Helper.Extensions;
 using HZY.Framework.DependencyInjection;
 using Mapster;
 using Model;
@@ -39,6 +40,9 @@ namespace BLL {
             if (isExist) {
                 return new BaseResult() { Status = SystemEnums.Result.Fail, Message = "用户已存在" };
             }
+            //entity.UserPassword = entity.UserPassword.GetMD5();
+            //string salt = ExtensionString.GenerateSalt(16);
+            //entity.UserPassword = ExtensionString.HashPassword(entity.UserPassword, salt);
             var res = await _userService.InsertAsync(entity);
             if (res <= 0) {
                 return new BaseResult() { Status = SystemEnums.Result.Fail, Message = $"新增用户{entity.UserName}失败" };
@@ -48,6 +52,10 @@ namespace BLL {
 
         public async Task<BaseResult> UpdateUserAsync(UserUpdateDto request) {
             var entity = request.Adapt<UserEntity>();
+            var isExist = await _userService.IsExistAsync(i=>i.UserName == entity.UserName&& i.Id !=entity.Id);
+            if (isExist) {
+                return new BaseResult() { Status = SystemEnums.Result.Fail, Message="修改的用户名以存在" };
+            }
             var res = await _userService.UpdateAsync(entity);
             if (!res) {
                 return new BaseResult() { Status = SystemEnums.Result.Fail, Message = $"更改用户{entity.UserName}失败" };

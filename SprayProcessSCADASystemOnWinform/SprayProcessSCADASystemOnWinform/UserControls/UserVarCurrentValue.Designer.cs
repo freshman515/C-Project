@@ -23,37 +23,21 @@
         /// 使用代码编辑器修改此方法的内容。
         /// </summary>
         private void InitializeComponent() {
-            dl_Value = new Sunny.UI.UIDigitalLabel();
             uiTableLayoutPanel1 = new Sunny.UI.UITableLayoutPanel();
             lbl_Name = new Sunny.UI.UILabel();
             lbl_Unit = new Sunny.UI.UILabel();
+            dl_Value = new Sunny.UI.UIDigitalLabel();
             uiTableLayoutPanel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // dl_Value
-            // 
-            dl_Value.BackColor = Color.Transparent;
-            dl_Value.DecimalPlaces = 1;
-            dl_Value.DigitalSize = 23;
-            dl_Value.Dock = DockStyle.Fill;
-            dl_Value.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            dl_Value.ForeColor = Color.DeepSkyBlue;
-            dl_Value.Location = new Point(203, 3);
-            dl_Value.MinimumSize = new Size(1, 1);
-            dl_Value.Name = "dl_Value";
-            dl_Value.Size = new Size(164, 84);
-            dl_Value.TabIndex = 1;
-            dl_Value.Text = "uiDigitalLabel1";
-            dl_Value.TextAlign = HorizontalAlignment.Center;
             // 
             // uiTableLayoutPanel1
             // 
             uiTableLayoutPanel1.ColumnCount = 3;
-            uiTableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            uiTableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 170F));
+            uiTableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            uiTableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             uiTableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100F));
-            uiTableLayoutPanel1.Controls.Add(lbl_Name, 0, 0);
             uiTableLayoutPanel1.Controls.Add(dl_Value, 1, 0);
+            uiTableLayoutPanel1.Controls.Add(lbl_Name, 0, 0);
             uiTableLayoutPanel1.Controls.Add(lbl_Unit, 2, 0);
             uiTableLayoutPanel1.Dock = DockStyle.Fill;
             uiTableLayoutPanel1.Location = new Point(0, 0);
@@ -71,7 +55,7 @@
             lbl_Name.ForeColor = Color.FromArgb(48, 48, 48);
             lbl_Name.Location = new Point(3, 0);
             lbl_Name.Name = "lbl_Name";
-            lbl_Name.Size = new Size(194, 90);
+            lbl_Name.Size = new Size(179, 90);
             lbl_Name.TabIndex = 0;
             lbl_Name.Text = "名称";
             lbl_Name.TextAlign = ContentAlignment.MiddleCenter;
@@ -88,6 +72,22 @@
             lbl_Unit.Text = "单位";
             lbl_Unit.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // dl_Value
+            // 
+            dl_Value.BackColor = Color.Transparent;
+            dl_Value.DecimalPlaces = 1;
+            dl_Value.DigitalSize = 23;
+            dl_Value.Dock = DockStyle.Fill;
+            dl_Value.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dl_Value.ForeColor = Color.DeepSkyBlue;
+            dl_Value.Location = new Point(188, 3);
+            dl_Value.MinimumSize = new Size(1, 1);
+            dl_Value.Name = "dl_Value";
+            dl_Value.Size = new Size(179, 84);
+            dl_Value.TabIndex = 3;
+            dl_Value.Text = "uiDigitalLabel1";
+            dl_Value.TextAlign = HorizontalAlignment.Center;
+            // 
             // UserVarCurrentValue
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -100,10 +100,9 @@
         }
 
         #endregion
-
-        private Sunny.UI.UIDigitalLabel dl_Value;
         private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel1;
         private Sunny.UI.UILabel lbl_Name;
         private Sunny.UI.UILabel lbl_Unit;
+        private Sunny.UI.UIDigitalLabel dl_Value;
     }
 }

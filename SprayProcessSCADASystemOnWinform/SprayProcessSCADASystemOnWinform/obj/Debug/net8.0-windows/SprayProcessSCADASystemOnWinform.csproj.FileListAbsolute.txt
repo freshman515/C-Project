@@ -194,3 +194,5 @@ D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\SprayProcessSCADASystemOnW
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\SprayProcessSCADASystemOnWinform\obj\Debug\net8.0-windows\SprayProcessSCADASystemOnWinform.pdb
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\SprayProcessSCADASystemOnWinform\obj\Debug\net8.0-windows\SprayProcessSCADASystemOnWinform.genruntimeconfig.cache
 D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\SprayProcessSCADASystemOnWinform\obj\Debug\net8.0-windows\ref\SprayProcessSCADASystemOnWinform.dll
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\SprayProcessSCADASystemOnWinform\obj\Debug\net8.0-windows\SprayProcessSCADASystemOnWinform.FrmLogin.resources
+D:\pragma\C# Project\SprayProcessSCADASystemOnWinform\SprayProcessSCADASystemOnWinform\obj\Debug\net8.0-windows\SprayProcessSCADASystemOnWinform.UserControls.LoginForm.resources

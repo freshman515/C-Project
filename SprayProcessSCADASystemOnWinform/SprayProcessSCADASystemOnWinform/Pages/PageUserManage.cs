@@ -20,10 +20,14 @@ namespace SprayProcessSCADASystemOnWinform {
             this._userManager = userManager;
             this.cb_Auth.Items.AddRange(Enum.GetNames(typeof(SystemEnums.UserRole)));
             this.cb_Auth.SelectedIndex = -1;
-            InitDgvUse();
+            this.Load += PageUserManage_Load;
         }
 
-        private async void InitDgvUse() {
+        private void PageUserManage_Load(object? sender, EventArgs e) {
+            LoadDgvUse();
+        }
+
+        private async void LoadDgvUse() {
             //刷新dgv
             var res = await _userManager.GetUserListAsync();
             if (res.Status == SystemEnums.Result.Success) {
@@ -53,13 +57,53 @@ namespace SprayProcessSCADASystemOnWinform {
             if (result.Status == SystemEnums.Result.Success) {
                 UIMessageTip.ShowOk("添加成功");
                 LogExtension.ShowMessage?.Invoke("添加用户成功", LogLevel.Information);
-                InitDgvUse();
+                LoadDgvUse();
             } else {
-                UIMessageTip.ShowError("添加失败");
-                LogExtension.ShowMessage?.Invoke("添加用户失败", LogLevel.Error);
+                UIMessageTip.ShowError(result.Message);
+                LogExtension.ShowMessage?.Invoke(result.Message, LogLevel.Error);
 
             }
 
+        }
+        private async void btn_Update_Click(object sender, EventArgs e) {
+            if (!ValidInput()) {
+                return;
+            }
+            UserUpdateDto updateDto = new UserUpdateDto() {
+                Id = int.Parse(dgv_User.CurrentRow.Cells["Id"].Value.ToString()),
+                UserName = this.txt_UserName.Text,
+                UserPassword = this.txt_Password.Text,
+                Role = this.cb_Auth.SelectedItem.ToString()
+            };
+            var result = await _userManager.UpdateUserAsync(updateDto);
+            if (result.Status == SystemEnums.Result.Success) {
+                UIMessageTip.ShowOk("修改用户成功");
+                LogExtension.ShowMessage?.Invoke("修改用户成功", LogLevel.Information);
+                LoadDgvUse();
+            } else {
+                UIMessageTip.ShowError(result.Message);
+                LogExtension.ShowMessage?.Invoke(result.Message, LogLevel.Error);
+
+            }
+        }
+        private async void btn_Delete_Click(object sender, EventArgs e) {
+            //判断是否选中
+            if(this.dgv_User.CurrentRow == null) {
+                UIMessageTip.Show("请先选择一行");
+                return;
+            }
+            UserDeleteDto userDeleteDto = new UserDeleteDto() {
+                Id = int.Parse(dgv_User.CurrentRow.Cells["Id"].Value.ToString()),
+            };
+            var result  =  await _userManager.DeleteUserAsync(userDeleteDto);
+            if (result.Status == SystemEnums.Result.Success) {
+                UIMessageTip.ShowOk("删除用户成功");
+                LogExtension.ShowMessage?.Invoke("删除用户成功", LogLevel.Information);
+                LoadDgvUse();
+            } else {
+                UIMessageTip.ShowError(result.Message);
+                LogExtension.ShowMessage?.Invoke(result.Message, LogLevel.Error);
+            }
         }
         private bool ValidInput() {
             if (string.IsNullOrWhiteSpace(txt_UserName.Text)) {
@@ -80,10 +124,25 @@ namespace SprayProcessSCADASystemOnWinform {
             }
             if (txt_EnterPassword.Text != txt_Password.Text) {
                 UIMessageTip.Show("两次密码输入不一致！");
-
+                return false;
             }
             return true;
 
         }
+
+        private void dgv_User_SelectIndexChange(object sender, int index) {
+            var row = dgv_User.Rows[index]; //拿到当前行
+            this.txt_UserName.Text = row.Cells["UserName"].Value.ToString();
+            this.txt_Password.Text = row.Cells["UserPassword"].Value.ToString();
+            this.txt_EnterPassword.Text = row.Cells["UserPassword"].Value.ToString();
+            this.cb_Auth.SelectedItem = row.Cells["Role"].Value.ToString();
+        }
+
+        private void dgv_User_DoubleClick(object sender, EventArgs e) {
+
+        }
+
+      
     }
+
 }

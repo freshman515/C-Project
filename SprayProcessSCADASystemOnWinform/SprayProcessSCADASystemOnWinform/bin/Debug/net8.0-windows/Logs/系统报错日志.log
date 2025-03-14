@@ -410,3 +410,416 @@
 2025-03-13 21:43:36.9820 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
 2025-03-13 21:43:36.9820 Info Configuration initialized.
 2025-03-13 21:43:37.2470 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-13 22:23:13.1259 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-13 22:23:13.1401 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-13 22:23:13.1800 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-13 22:23:13.1849 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-13 22:23:13.1849 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-13 22:23:13.2022 Info Configuration initialized.
+2025-03-13 22:23:14.0569 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-13 22:42:09.5300 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-13 22:42:09.5388 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-13 22:42:09.5796 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-13 22:42:09.5796 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-13 22:42:09.5796 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-13 22:42:09.5968 Info Configuration initialized.
+2025-03-13 22:42:10.1060 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-13 22:47:51.3771 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-13 22:47:51.3847 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-13 22:47:51.4260 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-13 22:47:51.4260 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-13 22:47:51.4366 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-13 22:47:51.4495 Info Configuration initialized.
+2025-03-13 22:47:51.8615 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:10:46.7650 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:10:46.7832 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:10:46.8142 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:10:46.8142 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:10:46.8142 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:10:46.8142 Info Configuration initialized.
+2025-03-14 10:10:47.4936 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:11:35.6568 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:11:35.6623 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:11:35.6878 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:11:35.6906 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:11:35.6906 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:11:35.6906 Info Configuration initialized.
+2025-03-14 10:11:35.9439 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:12:01.2561 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:12:01.2633 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:12:01.2954 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:12:01.2985 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:12:01.2985 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:12:01.2985 Info Configuration initialized.
+2025-03-14 10:12:01.6048 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:12:49.2697 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:12:49.2751 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:12:49.3015 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:12:49.3015 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:12:49.3015 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:12:49.3146 Info Configuration initialized.
+2025-03-14 10:12:49.5767 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:14:31.6148 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:14:31.6227 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:14:31.6552 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:14:31.6584 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:14:31.6584 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:14:31.6584 Info Configuration initialized.
+2025-03-14 10:14:32.0438 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:18:30.8811 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:18:30.8811 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:18:30.9166 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:18:30.9166 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:18:30.9226 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:18:30.9226 Info Configuration initialized.
+2025-03-14 10:18:31.1786 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:19:47.2780 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:19:47.2834 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:19:47.3098 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:19:47.3098 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:19:47.3159 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:19:47.3159 Info Configuration initialized.
+2025-03-14 10:19:47.5697 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:20:42.9263 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:20:42.9354 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:20:42.9657 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:20:42.9657 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:20:42.9728 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:20:42.9728 Info Configuration initialized.
+2025-03-14 10:20:43.3517 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:21:51.3009 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:21:51.3078 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:21:51.3436 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:21:51.3468 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:21:51.3468 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:21:51.3468 Info Configuration initialized.
+2025-03-14 10:21:51.6933 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:22:25.7230 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:22:25.7296 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:22:25.7575 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:22:25.7575 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:22:25.7575 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:22:25.7715 Info Configuration initialized.
+2025-03-14 10:22:26.0445 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:28:06.7917 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:28:06.7917 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:28:06.8305 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:28:06.8305 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:28:06.8305 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:28:06.8457 Info Configuration initialized.
+2025-03-14 10:28:07.0985 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:30:09.2119 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:30:09.2119 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:30:09.2454 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:30:09.2454 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:30:09.2517 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:30:09.2517 Info Configuration initialized.
+2025-03-14 10:30:09.5152 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:31:21.2386 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:31:21.2449 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:31:21.2759 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:31:21.2759 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:31:21.2759 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:31:21.2895 Info Configuration initialized.
+2025-03-14 10:31:21.5533 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:32:19.9585 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:32:19.9646 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:32:20.0008 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:32:20.0008 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:32:20.0008 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:32:20.0181 Info Configuration initialized.
+2025-03-14 10:32:20.3187 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:37:43.1473 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:37:43.1473 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:37:43.1797 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:37:43.1797 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:37:43.1797 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:37:43.1928 Info Configuration initialized.
+2025-03-14 10:37:43.4543 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:38:15.4807 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:38:15.4865 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:38:15.5136 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:38:15.5136 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:38:15.5210 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:38:15.5210 Info Configuration initialized.
+2025-03-14 10:38:15.7842 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:51:32.3798 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:51:32.3856 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:51:32.4164 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:51:32.4164 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:51:32.4164 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:51:32.4303 Info Configuration initialized.
+2025-03-14 10:51:32.6853 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:58:18.8823 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:58:18.8823 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:58:18.9182 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:58:18.9182 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:58:18.9268 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:58:18.9268 Info Configuration initialized.
+2025-03-14 10:58:19.2236 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:59:11.8818 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 10:59:11.8875 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 10:59:11.9184 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 10:59:11.9184 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 10:59:11.9252 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 10:59:11.9252 Info Configuration initialized.
+2025-03-14 10:59:12.2375 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 11:07:07.0122 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 11:07:07.0179 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 11:07:07.0479 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 11:07:07.0479 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 11:07:07.0479 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 11:07:07.0479 Info Configuration initialized.
+2025-03-14 11:07:07.3160 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 11:18:26.8208 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 11:18:26.8208 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 11:18:26.8559 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 11:18:26.8559 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 11:18:26.8621 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 11:18:26.8621 Info Configuration initialized.
+2025-03-14 11:18:27.1492 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:02:32.9326 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 12:02:32.9326 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 12:02:32.9694 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 12:02:32.9724 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 12:02:32.9724 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:02:32.9724 Info Configuration initialized.
+2025-03-14 12:02:33.2642 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:04:03.5915 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 12:04:03.5985 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 12:04:03.6300 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 12:04:03.6300 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 12:04:03.6300 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:04:03.6494 Info Configuration initialized.
+2025-03-14 12:04:04.0214 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:06:12.4533 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 12:06:12.4591 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 12:06:12.4875 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 12:06:12.4875 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 12:06:12.4875 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:06:12.4875 Info Configuration initialized.
+2025-03-14 12:06:12.8332 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:07:23.3735 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 12:07:23.3797 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 12:07:23.4122 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 12:07:23.4122 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 12:07:23.4122 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:07:23.4253 Info Configuration initialized.
+2025-03-14 12:07:23.6882 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:08:27.7111 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 12:08:27.7111 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 12:08:27.7429 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 12:08:27.7429 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 12:08:27.7429 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:08:27.7565 Info Configuration initialized.
+2025-03-14 12:08:27.9958 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:09:08.0121 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 12:09:08.0179 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 12:09:08.0487 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 12:09:08.0487 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 12:09:08.0487 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:09:08.0487 Info Configuration initialized.
+2025-03-14 12:09:08.3603 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:12:02.9506 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 12:12:02.9589 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 12:12:02.9969 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 12:12:02.9969 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 12:12:03.0045 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:12:03.0045 Info Configuration initialized.
+2025-03-14 12:12:03.2861 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:14:43.3890 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 12:14:43.3951 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 12:14:43.4280 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 12:14:43.4280 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 12:14:43.4280 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:14:43.4425 Info Configuration initialized.
+2025-03-14 12:14:43.7256 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:16:07.3371 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 12:16:07.3371 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 12:16:07.3808 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 12:16:07.3808 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 12:16:07.3808 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 12:16:07.3993 Info Configuration initialized.
+2025-03-14 12:16:07.7054 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 13:52:50.9345 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 13:52:50.9395 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 13:52:50.9669 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 13:52:50.9699 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 13:52:50.9699 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 13:52:50.9699 Info Configuration initialized.
+2025-03-14 13:52:51.3600 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:21:59.2506 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 14:21:59.2687 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 14:21:59.2991 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 14:21:59.2991 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 14:21:59.2991 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:21:59.3139 Info Configuration initialized.
+2025-03-14 14:21:59.6934 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:27:00.1073 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 14:27:00.1134 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 14:27:00.1414 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 14:27:00.1446 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 14:27:00.1446 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:27:00.1446 Info Configuration initialized.
+2025-03-14 14:27:00.4263 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:53:07.9691 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 14:53:07.9744 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 14:53:08.0024 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 14:53:08.0024 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 14:53:08.0024 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:53:08.0024 Info Configuration initialized.
+2025-03-14 14:53:08.2976 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:54:04.3681 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 14:54:04.3775 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 14:54:04.4211 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 14:54:04.4262 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 14:54:04.4262 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:54:04.4456 Info Configuration initialized.
+2025-03-14 14:54:04.8420 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:59:48.8847 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 14:59:48.8847 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 14:59:48.9283 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 14:59:48.9283 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 14:59:48.9283 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 14:59:48.9445 Info Configuration initialized.
+2025-03-14 14:59:49.2494 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:04:16.0019 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:04:16.0078 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:04:16.0414 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:04:16.0414 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:04:16.0493 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:04:16.0493 Info Configuration initialized.
+2025-03-14 15:04:16.3320 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:06:08.8770 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:06:08.8828 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:06:08.9124 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:06:08.9124 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:06:08.9124 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:06:08.9289 Info Configuration initialized.
+2025-03-14 15:06:09.2369 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:11:42.8591 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:11:42.8663 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:11:42.9107 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:11:42.9107 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:11:42.9107 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:11:42.9263 Info Configuration initialized.
+2025-03-14 15:11:43.2521 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:13:47.0970 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:13:47.1033 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:13:47.1359 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:13:47.1359 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:13:47.1428 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:13:47.1428 Info Configuration initialized.
+2025-03-14 15:13:47.4740 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:14:29.5349 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:14:29.5412 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:14:29.5715 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:14:29.5715 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:14:29.5715 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:14:29.5843 Info Configuration initialized.
+2025-03-14 15:14:29.8320 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:15:40.8423 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:15:40.8498 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:15:40.8782 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:15:40.8782 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:15:40.8782 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:15:40.8782 Info Configuration initialized.
+2025-03-14 15:15:41.1698 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:28:55.0939 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:28:55.0994 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:28:55.1298 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:28:55.1298 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:28:55.1298 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:28:55.1472 Info Configuration initialized.
+2025-03-14 15:28:55.4127 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:32:07.4529 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:32:07.4586 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:32:07.4860 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:32:07.4860 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:32:07.4860 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:32:07.4860 Info Configuration initialized.
+2025-03-14 15:32:07.7663 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:33:36.7161 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:33:36.7225 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:33:36.7502 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:33:36.7533 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:33:36.7533 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:33:36.7533 Info Configuration initialized.
+2025-03-14 15:33:37.0474 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:36:10.0296 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:36:10.0361 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:36:10.0646 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:36:10.0646 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:36:10.0646 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:36:10.0646 Info Configuration initialized.
+2025-03-14 15:36:10.3330 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:37:43.7726 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:37:43.7726 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:37:43.8171 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:37:43.8171 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:37:43.8171 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:37:43.8362 Info Configuration initialized.
+2025-03-14 15:37:44.1560 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:41:32.2646 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:41:32.2707 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:41:32.3008 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:41:32.3008 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:41:32.3008 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:41:32.3153 Info Configuration initialized.
+2025-03-14 15:41:32.5817 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:42:50.8152 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:42:50.8210 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:42:50.8535 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:42:50.8535 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:42:50.8535 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:42:50.8664 Info Configuration initialized.
+2025-03-14 15:42:51.1401 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:44:53.0817 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:44:53.0911 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:44:53.1311 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:44:53.1311 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:44:53.1311 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:44:53.1536 Info Configuration initialized.
+2025-03-14 15:44:53.4654 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:53:25.1447 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:53:25.1514 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:53:25.1793 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:53:25.1793 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:53:25.1793 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:53:25.1915 Info Configuration initialized.
+2025-03-14 15:53:25.5469 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:55:17.2863 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:55:17.2924 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:55:17.3210 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:55:17.3210 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:55:17.3210 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:55:17.3342 Info Configuration initialized.
+2025-03-14 15:55:17.6033 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:57:54.7841 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:57:54.7904 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:57:54.8198 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:57:54.8198 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:57:54.8198 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:57:54.8335 Info Configuration initialized.
+2025-03-14 15:57:55.0946 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:59:37.9040 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 15:59:37.9103 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 15:59:37.9408 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 15:59:37.9408 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 15:59:37.9408 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 15:59:37.9408 Info Configuration initialized.
+2025-03-14 15:59:38.2445 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 16:03:55.9157 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 16:03:55.9157 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 16:03:55.9496 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 16:03:55.9496 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 16:03:55.9558 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 16:03:55.9558 Info Configuration initialized.
+2025-03-14 16:03:56.2306 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 16:05:36.4348 Info Loading assembly name: NLog.Extensions.Logging
+2025-03-14 16:05:36.4404 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.625. Product version: 5.4.0+5cf0f9d17ffe57b5271ea8839bffd46d43bef3e9. GlobalAssemblyCache: False
+2025-03-14 16:05:36.4745 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-03-14 16:05:36.4745 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-14 16:05:36.4745 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog
+2025-03-14 16:05:36.4884 Info Configuration initialized.
+2025-03-14 16:05:36.7711 Info Validating config: TargetNames=allfile, ConfigItems=24 ConfigSection=NLog

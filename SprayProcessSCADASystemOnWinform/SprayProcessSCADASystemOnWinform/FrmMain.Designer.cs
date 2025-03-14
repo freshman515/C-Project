@@ -95,6 +95,7 @@
             // 
             Aside.Location = new Point(0, 165);
             Aside.Size = new Size(292, 915);
+            Aside.BeforeExpand += Aside_BeforeExpand;
             // 
             // Header
             // 
@@ -185,6 +186,7 @@
             lbl_Humidness.Name = "lbl_Humidness";
             lbl_Humidness.Size = new Size(87, 37);
             lbl_Humidness.TabIndex = 8;
+            lbl_Humidness.TagString = "厂内湿度";
             lbl_Humidness.Text = "60%";
             lbl_Humidness.MouseDown += Panel_MouseDown;
             lbl_Humidness.MouseMove += Panel_MouseMove;
@@ -214,6 +216,7 @@
             lbl_Temperature.Name = "lbl_Temperature";
             lbl_Temperature.Size = new Size(74, 31);
             lbl_Temperature.TabIndex = 6;
+            lbl_Temperature.TagString = "厂内温度";
             lbl_Temperature.Text = "25℃";
             lbl_Temperature.MouseDown += Panel_MouseDown;
             lbl_Temperature.MouseMove += Panel_MouseMove;
@@ -300,6 +303,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             pictureBox2.MouseDown += Panel_MouseDown;
             pictureBox2.MouseMove += Panel_MouseMove;
             // 
@@ -347,7 +351,7 @@
             uiLabel10.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel10.Image = Properties.Resources.CPU信息;
             uiLabel10.ImageAlign = ContentAlignment.MiddleLeft;
-            uiLabel10.Location = new Point(294, 19);
+            uiLabel10.Location = new Point(280, 19);
             uiLabel10.Name = "uiLabel10";
             uiLabel10.Size = new Size(142, 46);
             uiLabel10.TabIndex = 24;
@@ -359,9 +363,9 @@
             lbl_CPUInformation.BackColor = Color.Transparent;
             lbl_CPUInformation.Font = new Font("宋体", 10F);
             lbl_CPUInformation.ForeColor = Color.FromArgb(48, 48, 48);
-            lbl_CPUInformation.Location = new Point(428, 17);
+            lbl_CPUInformation.Location = new Point(415, 17);
             lbl_CPUInformation.Name = "lbl_CPUInformation";
-            lbl_CPUInformation.Size = new Size(71, 51);
+            lbl_CPUInformation.Size = new Size(98, 51);
             lbl_CPUInformation.TabIndex = 26;
             lbl_CPUInformation.Text = "58%";
             lbl_CPUInformation.TextAlign = ContentAlignment.MiddleCenter;
@@ -371,9 +375,9 @@
             lbl_MemoryInformation.BackColor = Color.Transparent;
             lbl_MemoryInformation.Font = new Font("宋体", 10F);
             lbl_MemoryInformation.ForeColor = Color.FromArgb(48, 48, 48);
-            lbl_MemoryInformation.Location = new Point(642, 15);
+            lbl_MemoryInformation.Location = new Point(641, 17);
             lbl_MemoryInformation.Name = "lbl_MemoryInformation";
-            lbl_MemoryInformation.Size = new Size(71, 51);
+            lbl_MemoryInformation.Size = new Size(83, 51);
             lbl_MemoryInformation.TabIndex = 28;
             lbl_MemoryInformation.Text = "58%";
             lbl_MemoryInformation.TextAlign = ContentAlignment.MiddleCenter;
@@ -399,7 +403,7 @@
             uiLabel12.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel12.Image = Properties.Resources.软件版本;
             uiLabel12.ImageAlign = ContentAlignment.MiddleLeft;
-            uiLabel12.Location = new Point(714, 19);
+            uiLabel12.Location = new Point(724, 19);
             uiLabel12.Name = "uiLabel12";
             uiLabel12.Size = new Size(151, 51);
             uiLabel12.TabIndex = 29;
@@ -411,7 +415,7 @@
             lbl_SoftwareVersion.BackColor = Color.Transparent;
             lbl_SoftwareVersion.Font = new Font("宋体", 10F);
             lbl_SoftwareVersion.ForeColor = Color.FromArgb(48, 48, 48);
-            lbl_SoftwareVersion.Location = new Point(871, 18);
+            lbl_SoftwareVersion.Location = new Point(876, 18);
             lbl_SoftwareVersion.Name = "lbl_SoftwareVersion";
             lbl_SoftwareVersion.Size = new Size(71, 51);
             lbl_SoftwareVersion.TabIndex = 30;
@@ -437,7 +441,7 @@
             uiLabel15.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel15.Image = Properties.Resources.授权;
             uiLabel15.ImageAlign = ContentAlignment.MiddleLeft;
-            uiLabel15.Location = new Point(948, 19);
+            uiLabel15.Location = new Point(953, 19);
             uiLabel15.Name = "uiLabel15";
             uiLabel15.Size = new Size(173, 51);
             uiLabel15.TabIndex = 31;
@@ -503,7 +507,7 @@
             // led_ProducteState
             // 
             led_ProducteState.BackColor = Color.Transparent;
-            led_ProducteState.Location = new Point(1389, 3);
+            led_ProducteState.Location = new Point(1409, 3);
             led_ProducteState.Name = "led_ProducteState";
             led_ProducteState.Size = new Size(55, 55);
             led_ProducteState.TabIndex = 31;
@@ -516,7 +520,7 @@
             uiLabel9.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel9.Image = Properties.Resources.系统状态;
             uiLabel9.ImageAlign = ContentAlignment.MiddleLeft;
-            uiLabel9.Location = new Point(1189, 13);
+            uiLabel9.Location = new Point(1210, 13);
             uiLabel9.Name = "uiLabel9";
             uiLabel9.Size = new Size(187, 38);
             uiLabel9.TabIndex = 30;
@@ -528,10 +532,11 @@
             lbl_TotalAlarm.BackColor = Color.Transparent;
             lbl_TotalAlarm.Font = new Font("宋体", 14.875F, FontStyle.Bold);
             lbl_TotalAlarm.ForeColor = Color.DeepSkyBlue;
-            lbl_TotalAlarm.Location = new Point(1077, 12);
+            lbl_TotalAlarm.Location = new Point(1088, 12);
             lbl_TotalAlarm.Name = "lbl_TotalAlarm";
             lbl_TotalAlarm.Size = new Size(104, 50);
             lbl_TotalAlarm.TabIndex = 29;
+            lbl_TotalAlarm.TagString = "累计报警";
             lbl_TotalAlarm.Text = "0500";
             // 
             // uiLabel7
@@ -541,7 +546,7 @@
             uiLabel7.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel7.Image = Properties.Resources.报警数;
             uiLabel7.ImageAlign = ContentAlignment.MiddleLeft;
-            uiLabel7.Location = new Point(892, 14);
+            uiLabel7.Location = new Point(901, 14);
             uiLabel7.Name = "uiLabel7";
             uiLabel7.Size = new Size(187, 38);
             uiLabel7.TabIndex = 28;
@@ -553,10 +558,11 @@
             lbl_Beat.BackColor = Color.Transparent;
             lbl_Beat.Font = new Font("宋体", 14.875F, FontStyle.Bold);
             lbl_Beat.ForeColor = Color.DeepSkyBlue;
-            lbl_Beat.Location = new Point(776, 10);
+            lbl_Beat.Location = new Point(788, 10);
             lbl_Beat.Name = "lbl_Beat";
             lbl_Beat.Size = new Size(103, 50);
             lbl_Beat.TabIndex = 27;
+            lbl_Beat.TagString = "生产节拍";
             lbl_Beat.Text = "60 S";
             lbl_Beat.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -567,7 +573,7 @@
             uiLabel8.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel8.Image = Properties.Resources.生产节拍;
             uiLabel8.ImageAlign = ContentAlignment.MiddleLeft;
-            uiLabel8.Location = new Point(597, 14);
+            uiLabel8.Location = new Point(604, 14);
             uiLabel8.Name = "uiLabel8";
             uiLabel8.Size = new Size(187, 38);
             uiLabel8.TabIndex = 26;
@@ -579,10 +585,11 @@
             lbl_BadCount.BackColor = Color.Transparent;
             lbl_BadCount.Font = new Font("宋体", 14.875F, FontStyle.Bold);
             lbl_BadCount.ForeColor = Color.DeepSkyBlue;
-            lbl_BadCount.Location = new Point(494, 11);
+            lbl_BadCount.Location = new Point(506, 11);
             lbl_BadCount.Name = "lbl_BadCount";
-            lbl_BadCount.Size = new Size(121, 50);
+            lbl_BadCount.Size = new Size(107, 50);
             lbl_BadCount.TabIndex = 25;
+            lbl_BadCount.TagString = "不良计数";
             lbl_BadCount.Text = "5000";
             // 
             // uiLabel5
@@ -592,7 +599,7 @@
             uiLabel5.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel5.Image = Properties.Resources.产量;
             uiLabel5.ImageAlign = ContentAlignment.MiddleLeft;
-            uiLabel5.Location = new Point(306, 12);
+            uiLabel5.Location = new Point(313, 12);
             uiLabel5.Name = "uiLabel5";
             uiLabel5.Size = new Size(187, 38);
             uiLabel5.TabIndex = 24;
@@ -608,6 +615,7 @@
             lbl_ProducteCount.Name = "lbl_ProducteCount";
             lbl_ProducteCount.Size = new Size(121, 50);
             lbl_ProducteCount.TabIndex = 23;
+            lbl_ProducteCount.TagString = "生产计数";
             lbl_ProducteCount.Text = "5000";
             // 
             // uiLabel3

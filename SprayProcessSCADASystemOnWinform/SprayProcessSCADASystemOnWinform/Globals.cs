@@ -53,7 +53,24 @@ namespace SprayProcessSCADASystemOnWinform {
                 }
             }
             return false;
-          
+
         }
+        #region 获取所有控件
+        public static List<Control> GetAllControls(UIPage page) {
+            List<Control> allControls = new List<Control>();
+            CollectControls(page.Controls, allControls);
+            return allControls;
+        }
+
+        private static void CollectControls(Control.ControlCollection controls, List<Control> allControls) {
+            foreach (Control control in controls) {
+                allControls.Add(control);
+                if (control.HasChildren) {
+                    CollectControls(control.Controls, allControls);
+                }
+            }
+        }
+
+        #endregion
     }
 }

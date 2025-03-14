@@ -23,6 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            components = new System.ComponentModel.Container();
             userAlarmState5 = new UserAlarmState();
             userDeviceState4 = new UserDeviceState();
             uiTitlePanel3 = new Sunny.UI.UITitlePanel();
@@ -33,11 +34,12 @@
             userVarCurrentValue1 = new UserVarCurrentValue();
             userAlarmState1 = new UserAlarmState();
             uiTitlePanel1 = new Sunny.UI.UITitlePanel();
+            userAlarmState6 = new UserAlarmState();
             userDeviceState1 = new UserDeviceState();
             uiTitlePanel2 = new Sunny.UI.UITitlePanel();
-            userAlarmState6 = new UserAlarmState();
             userAlarmState7 = new UserAlarmState();
             userAlarmState8 = new UserAlarmState();
+            timer1 = new System.Windows.Forms.Timer(components);
             uiTitlePanel3.SuspendLayout();
             uiTitlePanel1.SuspendLayout();
             uiTitlePanel2.SuspendLayout();
@@ -209,6 +211,21 @@
             uiTitlePanel1.TextAlignment = ContentAlignment.MiddleCenter;
             uiTitlePanel1.TitleHeight = 40;
             // 
+            // userAlarmState6
+            // 
+            userAlarmState6.DeviceName = "精洗低液位报警";
+            userAlarmState6.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            userAlarmState6.Location = new Point(602, 68);
+            userAlarmState6.MinimumSize = new Size(1, 1);
+            userAlarmState6.Name = "userAlarmState6";
+            userAlarmState6.RectColor = Color.Transparent;
+            userAlarmState6.Size = new Size(358, 66);
+            userAlarmState6.State = true;
+            userAlarmState6.TabIndex = 1;
+            userAlarmState6.Text = "userAlarmState1";
+            userAlarmState6.TextAlignment = ContentAlignment.MiddleCenter;
+            userAlarmState6.VariableName = "精洗低液位报警";
+            // 
             // userDeviceState1
             // 
             userDeviceState1.BackColor = Color.Transparent;
@@ -247,21 +264,6 @@
             uiTitlePanel2.Text = "水分炉工位";
             uiTitlePanel2.TextAlignment = ContentAlignment.MiddleCenter;
             uiTitlePanel2.TitleHeight = 40;
-            // 
-            // userAlarmState6
-            // 
-            userAlarmState6.DeviceName = "精洗低液位报警";
-            userAlarmState6.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            userAlarmState6.Location = new Point(602, 68);
-            userAlarmState6.MinimumSize = new Size(1, 1);
-            userAlarmState6.Name = "userAlarmState6";
-            userAlarmState6.RectColor = Color.Transparent;
-            userAlarmState6.Size = new Size(358, 66);
-            userAlarmState6.State = true;
-            userAlarmState6.TabIndex = 1;
-            userAlarmState6.Text = "userAlarmState1";
-            userAlarmState6.TextAlignment = ContentAlignment.MiddleCenter;
-            userAlarmState6.VariableName = "精洗低液位报警";
             // 
             // userAlarmState7
             // 
@@ -325,5 +327,6 @@
         private UserAlarmState userAlarmState6;
         private UserAlarmState userAlarmState7;
         private UserAlarmState userAlarmState8;
+        private System.Windows.Forms.Timer timer1;
     }
 }

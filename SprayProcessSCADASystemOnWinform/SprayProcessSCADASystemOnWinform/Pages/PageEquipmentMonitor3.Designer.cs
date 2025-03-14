@@ -23,18 +23,20 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            components = new System.ComponentModel.Container();
             userDeviceState3 = new UserDeviceState();
             userAlarmState3 = new UserAlarmState();
             userVarCurrentValue1 = new UserVarCurrentValue();
             userAlarmState1 = new UserAlarmState();
             uiTitlePanel1 = new Sunny.UI.UITitlePanel();
+            userAlarmState4 = new UserAlarmState();
             userAlarmState6 = new UserAlarmState();
+            userDeviceState2 = new UserDeviceState();
             userDeviceState1 = new UserDeviceState();
             uiTitlePanel2 = new Sunny.UI.UITitlePanel();
             userAlarmState8 = new UserAlarmState();
-            userAlarmState4 = new UserAlarmState();
-            userDeviceState2 = new UserDeviceState();
             userDeviceState4 = new UserDeviceState();
+            timer1 = new System.Windows.Forms.Timer(components);
             uiTitlePanel1.SuspendLayout();
             uiTitlePanel2.SuspendLayout();
             SuspendLayout();
@@ -126,6 +128,21 @@
             uiTitlePanel1.TextAlignment = ContentAlignment.MiddleCenter;
             uiTitlePanel1.TitleHeight = 40;
             // 
+            // userAlarmState4
+            // 
+            userAlarmState4.DeviceName = "固化炉燃烧机报警";
+            userAlarmState4.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            userAlarmState4.Location = new Point(570, 159);
+            userAlarmState4.MinimumSize = new Size(1, 1);
+            userAlarmState4.Name = "userAlarmState4";
+            userAlarmState4.RectColor = Color.Transparent;
+            userAlarmState4.Size = new Size(358, 66);
+            userAlarmState4.State = true;
+            userAlarmState4.TabIndex = 1;
+            userAlarmState4.Text = "userAlarmState6";
+            userAlarmState4.TextAlignment = ContentAlignment.MiddleCenter;
+            userAlarmState4.VariableName = "固化炉燃烧机报警";
+            // 
             // userAlarmState6
             // 
             userAlarmState6.DeviceName = "固化炉煤气泄漏报警";
@@ -140,6 +157,24 @@
             userAlarmState6.Text = "userAlarmState6";
             userAlarmState6.TextAlignment = ContentAlignment.MiddleCenter;
             userAlarmState6.VariableName = "固化炉煤气泄漏报警";
+            // 
+            // userDeviceState2
+            // 
+            userDeviceState2.BackColor = Color.Transparent;
+            userDeviceState2.DeviceRunName = "固化炉炉口风帘风机运行状态";
+            userDeviceState2.FillColor = Color.Transparent;
+            userDeviceState2.FillColor2 = Color.Transparent;
+            userDeviceState2.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            userDeviceState2.Location = new Point(487, 61);
+            userDeviceState2.MinimumSize = new Size(1, 1);
+            userDeviceState2.Name = "userDeviceState2";
+            userDeviceState2.RectColor = Color.Transparent;
+            userDeviceState2.Size = new Size(524, 81);
+            userDeviceState2.State = false;
+            userDeviceState2.TabIndex = 0;
+            userDeviceState2.Text = "userDeviceState1";
+            userDeviceState2.TextAlignment = ContentAlignment.MiddleCenter;
+            userDeviceState2.VariableName = "固化炉炉口风帘风机运行状态";
             // 
             // userDeviceState1
             // 
@@ -193,39 +228,6 @@
             userAlarmState8.TextAlignment = ContentAlignment.MiddleCenter;
             userAlarmState8.VariableName = "输送机行程报警";
             // 
-            // userAlarmState4
-            // 
-            userAlarmState4.DeviceName = "固化炉燃烧机报警";
-            userAlarmState4.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            userAlarmState4.Location = new Point(570, 159);
-            userAlarmState4.MinimumSize = new Size(1, 1);
-            userAlarmState4.Name = "userAlarmState4";
-            userAlarmState4.RectColor = Color.Transparent;
-            userAlarmState4.Size = new Size(358, 66);
-            userAlarmState4.State = true;
-            userAlarmState4.TabIndex = 1;
-            userAlarmState4.Text = "userAlarmState6";
-            userAlarmState4.TextAlignment = ContentAlignment.MiddleCenter;
-            userAlarmState4.VariableName = "固化炉燃烧机报警";
-            // 
-            // userDeviceState2
-            // 
-            userDeviceState2.BackColor = Color.Transparent;
-            userDeviceState2.DeviceRunName = "固化炉炉口风帘风机运行状态";
-            userDeviceState2.FillColor = Color.Transparent;
-            userDeviceState2.FillColor2 = Color.Transparent;
-            userDeviceState2.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            userDeviceState2.Location = new Point(487, 61);
-            userDeviceState2.MinimumSize = new Size(1, 1);
-            userDeviceState2.Name = "userDeviceState2";
-            userDeviceState2.RectColor = Color.Transparent;
-            userDeviceState2.Size = new Size(524, 81);
-            userDeviceState2.State = false;
-            userDeviceState2.TabIndex = 0;
-            userDeviceState2.Text = "userDeviceState1";
-            userDeviceState2.TextAlignment = ContentAlignment.MiddleCenter;
-            userDeviceState2.VariableName = "固化炉炉口风帘风机运行状态";
-            // 
             // userDeviceState4
             // 
             userDeviceState4.BackColor = Color.Transparent;
@@ -271,5 +273,6 @@
         private UserAlarmState userAlarmState4;
         private UserDeviceState userDeviceState2;
         private UserDeviceState userDeviceState4;
+        private System.Windows.Forms.Timer timer1;
     }
 }

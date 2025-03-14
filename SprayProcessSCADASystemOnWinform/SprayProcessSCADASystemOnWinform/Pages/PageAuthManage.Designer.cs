@@ -39,7 +39,7 @@
             cbg_Engineer.ColumnInterval = 20;
             cbg_Engineer.Font = new Font("微软雅黑", 15F);
             cbg_Engineer.HoverColor = Color.FromArgb(220, 236, 255);
-            cbg_Engineer.Items.AddRange(new object[] { "控制模块", "监控模块", "配方模块", "日志模块", "报表模块", "图标模块", "参数模块" });
+            cbg_Engineer.Items.AddRange(new object[] { "控制模块", "监控模块", "配方模块", "日志模块", "报表模块", "图表模块", "参数模块" });
             cbg_Engineer.Location = new Point(43, 140);
             cbg_Engineer.Margin = new Padding(4, 5, 4, 5);
             cbg_Engineer.MinimumSize = new Size(1, 1);
@@ -61,7 +61,7 @@
             cbg_Operator.ColumnInterval = 20;
             cbg_Operator.Font = new Font("微软雅黑", 15F);
             cbg_Operator.HoverColor = Color.FromArgb(220, 236, 255);
-            cbg_Operator.Items.AddRange(new object[] { "控制模块", "监控模块", "配方模块", "日志模块", "报表模块", "图标模块", "参数模块" });
+            cbg_Operator.Items.AddRange(new object[] { "控制模块", "监控模块", "配方模块", "日志模块", "报表模块", "图表模块", "参数模块" });
             cbg_Operator.Location = new Point(434, 140);
             cbg_Operator.Margin = new Padding(4, 5, 4, 5);
             cbg_Operator.MinimumSize = new Size(1, 1);
@@ -83,7 +83,7 @@
             cbg_Visitor.ColumnInterval = 20;
             cbg_Visitor.Font = new Font("微软雅黑", 15F);
             cbg_Visitor.HoverColor = Color.FromArgb(220, 236, 255);
-            cbg_Visitor.Items.AddRange(new object[] { "控制模块", "监控模块", "配方模块", "日志模块", "报表模块", "图标模块", "参数模块" });
+            cbg_Visitor.Items.AddRange(new object[] { "控制模块", "监控模块", "配方模块", "日志模块", "报表模块", "图表模块", "参数模块" });
             cbg_Visitor.Location = new Point(817, 140);
             cbg_Visitor.Margin = new Padding(4, 5, 4, 5);
             cbg_Visitor.MinimumSize = new Size(1, 1);
@@ -109,6 +109,7 @@
             btn_UpdateEngAuth.TabIndex = 1;
             btn_UpdateEngAuth.Text = "修改工程师权限";
             btn_UpdateEngAuth.TipsFont = new Font("宋体", 11F);
+            btn_UpdateEngAuth.Click += btn_UpdateEngAuth_Click;
             // 
             // btn_UpdateOpAuth
             // 
@@ -120,6 +121,7 @@
             btn_UpdateOpAuth.TabIndex = 1;
             btn_UpdateOpAuth.Text = "修改操作员权限";
             btn_UpdateOpAuth.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_UpdateOpAuth.Click += btn_UpdateOpAuth_Click;
             // 
             // btn_UpdateVisitorAuth
             // 
@@ -131,6 +133,7 @@
             btn_UpdateVisitorAuth.TabIndex = 1;
             btn_UpdateVisitorAuth.Text = "修改访客权限";
             btn_UpdateVisitorAuth.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_UpdateVisitorAuth.Click += btn_UpdateVisitorAuth_Click;
             // 
             // uiLabel1
             // 

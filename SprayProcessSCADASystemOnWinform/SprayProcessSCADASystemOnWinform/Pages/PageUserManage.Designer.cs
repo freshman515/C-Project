@@ -171,6 +171,7 @@
             btn_Update.TabIndex = 2;
             btn_Update.Text = "修改用户";
             btn_Update.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_Update.Click += btn_Update_Click;
             // 
             // btn_Delete
             // 
@@ -184,6 +185,7 @@
             btn_Delete.TabIndex = 2;
             btn_Delete.Text = "删除用户";
             btn_Delete.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_Delete.Click += btn_Delete_Click;
             // 
             // dgv_User
             // 
@@ -235,6 +237,8 @@
             dgv_User.Size = new Size(947, 775);
             dgv_User.StripeOddColor = Color.FromArgb(235, 243, 255);
             dgv_User.TabIndex = 3;
+            dgv_User.SelectIndexChange += dgv_User_SelectIndexChange;
+            dgv_User.DoubleClick += dgv_User_DoubleClick;
             // 
             // Id
             // 

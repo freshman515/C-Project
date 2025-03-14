@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SprayProcessSCADASystemOnWinform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5337990c84cf71936b1600b962c10ff3bb4fb6a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6804ff58f9b88114cb91ef380d9daa70dfe2c52")]
 [assembly: System.Reflection.AssemblyProductAttribute("SprayProcessSCADASystemOnWinform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SprayProcessSCADASystemOnWinform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
