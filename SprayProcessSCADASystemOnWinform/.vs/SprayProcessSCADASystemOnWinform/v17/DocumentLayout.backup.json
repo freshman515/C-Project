@@ -7,19 +7,75 @@
       "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\sprayprocessscadasystemonwinform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\pages\\pagerecipemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pagerecipemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\bll\\dto\\recipedto\\queryreciperesultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\recipedto\\queryreciperesultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\bll\\dto\\recipedto\\addrecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\recipedto\\addrecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\pages\\pagerecipemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pagerecipemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\pages\\pagerecipemanage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pagerecipemanage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\usercontrols\\usersetvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\usercontrols\\usersetvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\usercontrols\\usersetvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\usercontrols\\usersetvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\usercontrols\\uservarcurrentvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\usercontrols\\uservarcurrentvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\bll\\dto\\recipedto\\getrecipebyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\recipedto\\getrecipebyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\bll\\dto\\recipedto\\deleterecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\recipedto\\deleterecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958C2D63-63E4-449E-8DAC-117FB1327E9D}|Model\\Model.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\model\\recipeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958C2D63-63E4-449E-8DAC-117FB1327E9D}|Model\\Model.csproj|solutionrelative:model\\recipeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\bll\\dto\\recipedto\\updaterecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DA22A8-21D2-4418-841D-DD27A10666B4}|BLL\\BLL.csproj|solutionrelative:bll\\dto\\recipedto\\updaterecipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEC4E2A3-3593-4A3C-A393-F06C51076F6B}|Helper\\Helper.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\helper\\runtimestatushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEC4E2A3-3593-4A3C-A393-F06C51076F6B}|Helper\\Helper.csproj|solutionrelative:helper\\runtimestatushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,15 +83,11 @@
       "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\pages\\pageequipmentmonitor2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -51,7 +103,7 @@
       "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|d:\\pragma\\c# project\\sprayprocessscadasystemonwinform\\sprayprocessscadasystemonwinform\\usercontrols\\userdevicestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\sprayprocessscadasystemonwinform\\usercontrols\\userdevicestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B64661E9-1769-472B-904C-6B6DAEADF855}|SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform.csproj|solutionrelative:sprayprocessscadasystemonwinform\\usercontrols\\userdevicestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -72,27 +124,49 @@
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\FrmMain.cs",
               "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\FrmMain.cs",
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\FrmMain.cs",
-              "ViewState": "AgIAAJEBAAAAAAAAAAAQwJ4BAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAMYBAAAAAAAAAAAuwNEBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T06:31:44.812Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QueryRecipeResultDto.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\QueryRecipeResultDto.cs",
+              "RelativeDocumentMoniker": "BLL\\Dto\\RecipeDto\\QueryRecipeResultDto.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\QueryRecipeResultDto.cs",
+              "RelativeToolTip": "BLL\\Dto\\RecipeDto\\QueryRecipeResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:50:24.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RuntimeStatusHelper.cs",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\RuntimeStatusHelper.cs",
-              "RelativeDocumentMoniker": "Helper\\RuntimeStatusHelper.cs",
-              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\RuntimeStatusHelper.cs",
-              "RelativeToolTip": "Helper\\RuntimeStatusHelper.cs",
-              "ViewState": "AgIAAFYAAAAAMAAAAADYv2kAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UserSetValue.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\UserSetValue.cs",
+              "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\UserControls\\UserSetValue.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\UserSetValue.cs",
+              "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\UserControls\\UserSetValue.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwCYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T07:51:14.838Z",
+              "WhenOpened": "2025-03-14T13:05:49.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddRecipeDto.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\AddRecipeDto.cs",
+              "RelativeDocumentMoniker": "BLL\\Dto\\RecipeDto\\AddRecipeDto.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\AddRecipeDto.cs",
+              "RelativeToolTip": "BLL\\Dto\\RecipeDto\\AddRecipeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:49:38.403Z",
               "EditorCaption": ""
             },
             {
@@ -109,7 +183,147 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "PageRecipeManage.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.cs",
+              "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:18:46.865Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PageRecipeManage.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.cs",
+              "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.cs",
+              "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwCcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:18:51.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageRecipeManage.Designer.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.Designer.cs",
+              "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.Designer.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.Designer.cs",
+              "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageRecipeManage.Designer.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAQwFwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:10:10.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserSetValue.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\UserSetValue.cs",
+              "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\UserControls\\UserSetValue.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\UserSetValue.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\UserControls\\UserSetValue.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:05:46.346Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserVarCurrentValue.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\UserVarCurrentValue.cs",
+              "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\UserControls\\UserVarCurrentValue.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\UserVarCurrentValue.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\UserControls\\UserVarCurrentValue.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:02:07.55Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetRecipeByIdDto.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\GetRecipeByIdDto.cs",
+              "RelativeDocumentMoniker": "BLL\\Dto\\RecipeDto\\GetRecipeByIdDto.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\GetRecipeByIdDto.cs",
+              "RelativeToolTip": "BLL\\Dto\\RecipeDto\\GetRecipeByIdDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:50:27.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Program.cs",
+              "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Program.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Program.cs",
+              "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:51:19.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteRecipeDto.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\DeleteRecipeDto.cs",
+              "RelativeDocumentMoniker": "BLL\\Dto\\RecipeDto\\DeleteRecipeDto.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\DeleteRecipeDto.cs",
+              "RelativeToolTip": "BLL\\Dto\\RecipeDto\\DeleteRecipeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:50:29.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RecipeEntity.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\RecipeEntity.cs",
+              "RelativeDocumentMoniker": "Model\\RecipeEntity.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Model\\RecipeEntity.cs",
+              "RelativeToolTip": "Model\\RecipeEntity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:51:11.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateRecipeDto.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\UpdateRecipeDto.cs",
+              "RelativeDocumentMoniker": "BLL\\Dto\\RecipeDto\\UpdateRecipeDto.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Dto\\RecipeDto\\UpdateRecipeDto.cs",
+              "RelativeToolTip": "BLL\\Dto\\RecipeDto\\UpdateRecipeDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:50:10.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RuntimeStatusHelper.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\RuntimeStatusHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\RuntimeStatusHelper.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\Helper\\RuntimeStatusHelper.cs",
+              "RelativeToolTip": "Helper\\RuntimeStatusHelper.cs",
+              "ViewState": "AgIAAFYAAAAAMAAAAADYv2kAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T07:51:14.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "PageEquipmentMonitor3.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor3.cs",
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor3.cs",
@@ -122,19 +336,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "PageEquipmentMonitor3.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor3.cs",
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor3.cs",
               "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor3.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor3.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T07:15:16.615Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-03-14T07:15:16.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "PageEquipmentMonitor2.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor2.cs",
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor2.cs",
@@ -147,31 +360,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "PageEquipmentMonitor2.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor2.cs",
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor2.cs",
               "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor2.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor2.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T07:10:54.052Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-03-14T07:10:54.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "PageEquipmentMonitor.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.cs",
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.cs",
               "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T07:05:01.72Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-03-14T07:05:01.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Globals.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Globals.cs",
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Globals.cs",
@@ -179,12 +390,11 @@
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Globals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T06:36:41.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T06:36:41.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "PageEquipmentMonitor.Designer.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.Designer.cs",
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.Designer.cs",
@@ -192,12 +402,11 @@
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.Designer.cs",
               "ViewState": "AgIAAHQBAAAAAAAAAADwv4sBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T06:30:58.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T06:30:58.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "PageEquipmentMonitor.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.cs",
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.cs",
@@ -205,24 +414,22 @@
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageEquipmentMonitor.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAowBYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T06:30:25.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T06:30:25.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "UserDeviceState.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\UserDeviceState.cs",
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\UserControls\\UserDeviceState.cs",
               "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\UserDeviceState.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\UserControls\\UserDeviceState.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T06:27:34.944Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-03-14T06:27:34.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "UserManager.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\BLL\\Manager\\UserManager.cs",
               "RelativeDocumentMoniker": "BLL\\Manager\\UserManager.cs",
@@ -230,8 +437,7 @@
               "RelativeToolTip": "BLL\\Manager\\UserManager.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAD4v1kAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:05:50.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T02:05:50.606Z"
             }
           ]
         }

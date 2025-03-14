@@ -24,9 +24,9 @@
         /// </summary>
         private void InitializeComponent() {
             uiTableLayoutPanel1 = new Sunny.UI.UITableLayoutPanel();
+            txt_Value = new Sunny.UI.UITextBox();
             lbl_Name = new Sunny.UI.UILabel();
             lbl_Unit = new Sunny.UI.UILabel();
-            txt_Value = new Sunny.UI.UITextBox();
             uiTableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -47,6 +47,22 @@
             uiTableLayoutPanel1.Size = new Size(470, 90);
             uiTableLayoutPanel1.TabIndex = 2;
             uiTableLayoutPanel1.TagString = null;
+            // 
+            // txt_Value
+            // 
+            txt_Value.Dock = DockStyle.Fill;
+            txt_Value.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            txt_Value.Location = new Point(224, 5);
+            txt_Value.Margin = new Padding(4, 5, 4, 5);
+            txt_Value.MinimumSize = new Size(1, 16);
+            txt_Value.Name = "txt_Value";
+            txt_Value.Padding = new Padding(5);
+            txt_Value.ShowText = false;
+            txt_Value.Size = new Size(142, 80);
+            txt_Value.TabIndex = 4;
+            txt_Value.TextAlignment = ContentAlignment.MiddleCenter;
+            txt_Value.Watermark = "";
+            txt_Value.TextChanged += txt_Value_TextChanged;
             // 
             // lbl_Name
             // 
@@ -71,21 +87,6 @@
             lbl_Unit.TabIndex = 2;
             lbl_Unit.Text = "单位";
             lbl_Unit.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // txt_Value
-            // 
-            txt_Value.Dock = DockStyle.Fill;
-            txt_Value.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            txt_Value.Location = new Point(224, 5);
-            txt_Value.Margin = new Padding(4, 5, 4, 5);
-            txt_Value.MinimumSize = new Size(1, 16);
-            txt_Value.Name = "txt_Value";
-            txt_Value.Padding = new Padding(5);
-            txt_Value.ShowText = false;
-            txt_Value.Size = new Size(142, 80);
-            txt_Value.TabIndex = 4;
-            txt_Value.TextAlignment = ContentAlignment.MiddleCenter;
-            txt_Value.Watermark = "";
             // 
             // UserSetValue
             // 

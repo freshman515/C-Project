@@ -44,16 +44,17 @@
             userSetValue2 = new UserSetValue();
             userSetValue1 = new UserSetValue();
             uiTitlePanel2 = new Sunny.UI.UITitlePanel();
-            uiLabel1 = new Sunny.UI.UILabel();
-            txt_ProductType = new Sunny.UI.UITextBox();
-            btn_AddRecipe = new Sunny.UI.UISymbolButton();
-            btn_DelRecipe = new Sunny.UI.UISymbolButton();
-            btn_UpdateRecipe = new Sunny.UI.UISymbolButton();
-            btn_QueryRecipe = new Sunny.UI.UISymbolButton();
-            btn_ImportRecipe = new Sunny.UI.UISymbolButton();
-            btn_ExportRecipe = new Sunny.UI.UISymbolButton();
-            btn_DownloadRecipe = new Sunny.UI.UISymbolButton();
             dgv_Recipe = new Sunny.UI.UIDataGridView();
+            btn_DownloadRecipe = new Sunny.UI.UISymbolButton();
+            btn_ExportRecipe = new Sunny.UI.UISymbolButton();
+            btn_QueryRecipe = new Sunny.UI.UISymbolButton();
+            btn_DelRecipe = new Sunny.UI.UISymbolButton();
+            btn_ImportRecipe = new Sunny.UI.UISymbolButton();
+            btn_UpdateRecipe = new Sunny.UI.UISymbolButton();
+            btn_AddRecipe = new Sunny.UI.UISymbolButton();
+            txt_ProductType = new Sunny.UI.UITextBox();
+            uiLabel1 = new Sunny.UI.UILabel();
+            产品类型 = new DataGridViewTextBoxColumn();
             uiTitlePanel1.SuspendLayout();
             uiTitlePanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_Recipe).BeginInit();
@@ -116,7 +117,7 @@
             userSetValue15.Text = "userSetValue1";
             userSetValue15.TextAlignment = ContentAlignment.MiddleCenter;
             userSetValue15.Unit = "m³";
-            userSetValue15.VariableName = "精洗液位下限值";
+            userSetValue15.VariableName = "精洗液液位下限值";
             userSetValue15.VarValue = "";
             // 
             // userSetValue14
@@ -212,7 +213,7 @@
             userSetValue9.Text = "userSetValue1";
             userSetValue9.TextAlignment = ContentAlignment.MiddleCenter;
             userSetValue9.Unit = "m³";
-            userSetValue9.VariableName = "粗洗液位下限值";
+            userSetValue9.VariableName = "粗洗液液位下限值";
             userSetValue9.VarValue = "";
             // 
             // userSetValue8
@@ -335,117 +336,10 @@
             uiTitlePanel2.Text = "配方控制台";
             uiTitlePanel2.TextAlignment = ContentAlignment.MiddleCenter;
             // 
-            // uiLabel1
-            // 
-            uiLabel1.Font = new Font("宋体", 11F);
-            uiLabel1.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel1.Location = new Point(4, 69);
-            uiLabel1.Name = "uiLabel1";
-            uiLabel1.Size = new Size(167, 57);
-            uiLabel1.TabIndex = 0;
-            uiLabel1.Text = "产品型号：";
-            uiLabel1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // txt_ProductType
-            // 
-            txt_ProductType.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            txt_ProductType.Location = new Point(174, 69);
-            txt_ProductType.Margin = new Padding(4, 5, 4, 5);
-            txt_ProductType.MinimumSize = new Size(1, 16);
-            txt_ProductType.Name = "txt_ProductType";
-            txt_ProductType.Padding = new Padding(5);
-            txt_ProductType.ShowText = false;
-            txt_ProductType.Size = new Size(247, 60);
-            txt_ProductType.TabIndex = 1;
-            txt_ProductType.TextAlignment = ContentAlignment.MiddleLeft;
-            txt_ProductType.Watermark = "";
-            // 
-            // btn_AddRecipe
-            // 
-            btn_AddRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            btn_AddRecipe.Location = new Point(8, 140);
-            btn_AddRecipe.MinimumSize = new Size(1, 1);
-            btn_AddRecipe.Name = "btn_AddRecipe";
-            btn_AddRecipe.Size = new Size(200, 70);
-            btn_AddRecipe.Symbol = 557670;
-            btn_AddRecipe.TabIndex = 2;
-            btn_AddRecipe.Text = "添加配方";
-            btn_AddRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            // 
-            // btn_DelRecipe
-            // 
-            btn_DelRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            btn_DelRecipe.Location = new Point(228, 140);
-            btn_DelRecipe.MinimumSize = new Size(1, 1);
-            btn_DelRecipe.Name = "btn_DelRecipe";
-            btn_DelRecipe.Size = new Size(200, 70);
-            btn_DelRecipe.Symbol = 362810;
-            btn_DelRecipe.TabIndex = 2;
-            btn_DelRecipe.Text = "删除配方";
-            btn_DelRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            // 
-            // btn_UpdateRecipe
-            // 
-            btn_UpdateRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            btn_UpdateRecipe.Location = new Point(8, 227);
-            btn_UpdateRecipe.MinimumSize = new Size(1, 1);
-            btn_UpdateRecipe.Name = "btn_UpdateRecipe";
-            btn_UpdateRecipe.Size = new Size(200, 70);
-            btn_UpdateRecipe.Symbol = 558087;
-            btn_UpdateRecipe.TabIndex = 2;
-            btn_UpdateRecipe.Text = "修改配方";
-            btn_UpdateRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            // 
-            // btn_QueryRecipe
-            // 
-            btn_QueryRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            btn_QueryRecipe.Location = new Point(228, 230);
-            btn_QueryRecipe.MinimumSize = new Size(1, 1);
-            btn_QueryRecipe.Name = "btn_QueryRecipe";
-            btn_QueryRecipe.Size = new Size(200, 70);
-            btn_QueryRecipe.Symbol = 559520;
-            btn_QueryRecipe.TabIndex = 2;
-            btn_QueryRecipe.Text = "查询配方";
-            btn_QueryRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            // 
-            // btn_ImportRecipe
-            // 
-            btn_ImportRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            btn_ImportRecipe.Location = new Point(8, 318);
-            btn_ImportRecipe.MinimumSize = new Size(1, 1);
-            btn_ImportRecipe.Name = "btn_ImportRecipe";
-            btn_ImportRecipe.Size = new Size(200, 70);
-            btn_ImportRecipe.Symbol = 362831;
-            btn_ImportRecipe.TabIndex = 2;
-            btn_ImportRecipe.Text = "导入配方";
-            btn_ImportRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            // 
-            // btn_ExportRecipe
-            // 
-            btn_ExportRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            btn_ExportRecipe.Location = new Point(228, 318);
-            btn_ExportRecipe.MinimumSize = new Size(1, 1);
-            btn_ExportRecipe.Name = "btn_ExportRecipe";
-            btn_ExportRecipe.Size = new Size(200, 70);
-            btn_ExportRecipe.Symbol = 362831;
-            btn_ExportRecipe.TabIndex = 2;
-            btn_ExportRecipe.Text = "导出配方";
-            btn_ExportRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            // 
-            // btn_DownloadRecipe
-            // 
-            btn_DownloadRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            btn_DownloadRecipe.Location = new Point(8, 408);
-            btn_DownloadRecipe.MinimumSize = new Size(1, 1);
-            btn_DownloadRecipe.Name = "btn_DownloadRecipe";
-            btn_DownloadRecipe.Size = new Size(418, 90);
-            btn_DownloadRecipe.Symbol = 61465;
-            btn_DownloadRecipe.TabIndex = 3;
-            btn_DownloadRecipe.Text = "下载配方";
-            btn_DownloadRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            // 
             // dgv_Recipe
             // 
+            dgv_Recipe.AllowUserToAddRows = false;
+            dgv_Recipe.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = Color.FromArgb(235, 243, 255);
             dgv_Recipe.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dgv_Recipe.BackgroundColor = Color.White;
@@ -458,7 +352,9 @@
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
             dgv_Recipe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dgv_Recipe.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv_Recipe.ColumnHeadersHeight = 32;
+            dgv_Recipe.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dgv_Recipe.Columns.AddRange(new DataGridViewColumn[] { 产品类型 });
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = SystemColors.Window;
             dataGridViewCellStyle3.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
@@ -489,6 +385,126 @@
             dgv_Recipe.Size = new Size(418, 315);
             dgv_Recipe.StripeOddColor = Color.FromArgb(235, 243, 255);
             dgv_Recipe.TabIndex = 4;
+            // 
+            // btn_DownloadRecipe
+            // 
+            btn_DownloadRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_DownloadRecipe.Location = new Point(8, 408);
+            btn_DownloadRecipe.MinimumSize = new Size(1, 1);
+            btn_DownloadRecipe.Name = "btn_DownloadRecipe";
+            btn_DownloadRecipe.Size = new Size(418, 90);
+            btn_DownloadRecipe.Symbol = 61465;
+            btn_DownloadRecipe.TabIndex = 3;
+            btn_DownloadRecipe.Text = "下载配方";
+            btn_DownloadRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            // 
+            // btn_ExportRecipe
+            // 
+            btn_ExportRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_ExportRecipe.Location = new Point(228, 318);
+            btn_ExportRecipe.MinimumSize = new Size(1, 1);
+            btn_ExportRecipe.Name = "btn_ExportRecipe";
+            btn_ExportRecipe.Size = new Size(200, 70);
+            btn_ExportRecipe.Symbol = 362831;
+            btn_ExportRecipe.TabIndex = 2;
+            btn_ExportRecipe.Text = "导出配方";
+            btn_ExportRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            // 
+            // btn_QueryRecipe
+            // 
+            btn_QueryRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_QueryRecipe.Location = new Point(228, 230);
+            btn_QueryRecipe.MinimumSize = new Size(1, 1);
+            btn_QueryRecipe.Name = "btn_QueryRecipe";
+            btn_QueryRecipe.Size = new Size(200, 70);
+            btn_QueryRecipe.Symbol = 559520;
+            btn_QueryRecipe.TabIndex = 2;
+            btn_QueryRecipe.Text = "查询配方";
+            btn_QueryRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            // 
+            // btn_DelRecipe
+            // 
+            btn_DelRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_DelRecipe.Location = new Point(228, 140);
+            btn_DelRecipe.MinimumSize = new Size(1, 1);
+            btn_DelRecipe.Name = "btn_DelRecipe";
+            btn_DelRecipe.Size = new Size(200, 70);
+            btn_DelRecipe.Symbol = 362810;
+            btn_DelRecipe.TabIndex = 2;
+            btn_DelRecipe.Text = "删除配方";
+            btn_DelRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            // 
+            // btn_ImportRecipe
+            // 
+            btn_ImportRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_ImportRecipe.Location = new Point(8, 318);
+            btn_ImportRecipe.MinimumSize = new Size(1, 1);
+            btn_ImportRecipe.Name = "btn_ImportRecipe";
+            btn_ImportRecipe.Size = new Size(200, 70);
+            btn_ImportRecipe.Symbol = 362831;
+            btn_ImportRecipe.TabIndex = 2;
+            btn_ImportRecipe.Text = "导入配方";
+            btn_ImportRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            // 
+            // btn_UpdateRecipe
+            // 
+            btn_UpdateRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_UpdateRecipe.Location = new Point(8, 227);
+            btn_UpdateRecipe.MinimumSize = new Size(1, 1);
+            btn_UpdateRecipe.Name = "btn_UpdateRecipe";
+            btn_UpdateRecipe.Size = new Size(200, 70);
+            btn_UpdateRecipe.Symbol = 558087;
+            btn_UpdateRecipe.TabIndex = 2;
+            btn_UpdateRecipe.Text = "修改配方";
+            btn_UpdateRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            // 
+            // btn_AddRecipe
+            // 
+            btn_AddRecipe.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_AddRecipe.Location = new Point(8, 140);
+            btn_AddRecipe.MinimumSize = new Size(1, 1);
+            btn_AddRecipe.Name = "btn_AddRecipe";
+            btn_AddRecipe.Size = new Size(200, 70);
+            btn_AddRecipe.Symbol = 557670;
+            btn_AddRecipe.TabIndex = 2;
+            btn_AddRecipe.Text = "添加配方";
+            btn_AddRecipe.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_AddRecipe.Click += btn_AddRecipe_Click;
+            // 
+            // txt_ProductType
+            // 
+            txt_ProductType.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            txt_ProductType.Location = new Point(174, 69);
+            txt_ProductType.Margin = new Padding(4, 5, 4, 5);
+            txt_ProductType.MinimumSize = new Size(1, 16);
+            txt_ProductType.Name = "txt_ProductType";
+            txt_ProductType.Padding = new Padding(5);
+            txt_ProductType.ShowText = false;
+            txt_ProductType.Size = new Size(247, 60);
+            txt_ProductType.TabIndex = 1;
+            txt_ProductType.TextAlignment = ContentAlignment.MiddleLeft;
+            txt_ProductType.Watermark = "";
+            // 
+            // uiLabel1
+            // 
+            uiLabel1.Font = new Font("宋体", 11F);
+            uiLabel1.ForeColor = Color.FromArgb(48, 48, 48);
+            uiLabel1.Location = new Point(4, 69);
+            uiLabel1.Name = "uiLabel1";
+            uiLabel1.Size = new Size(167, 57);
+            uiLabel1.TabIndex = 0;
+            uiLabel1.Text = "产品型号：";
+            uiLabel1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // 产品类型
+            // 
+            产品类型.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            产品类型.DataPropertyName = "产品类型";
+            产品类型.HeaderText = "产品类型";
+            产品类型.MinimumWidth = 10;
+            产品类型.Name = "产品类型";
+            产品类型.ReadOnly = true;
+            产品类型.Width = 300;
             // 
             // PageRecipeManage
             // 
@@ -533,5 +549,6 @@
         private Sunny.UI.UISymbolButton btn_UpdateRecipe;
         private Sunny.UI.UISymbolButton btn_DownloadRecipe;
         private Sunny.UI.UIDataGridView dgv_Recipe;
+        private DataGridViewTextBoxColumn 产品类型;
     }
 }

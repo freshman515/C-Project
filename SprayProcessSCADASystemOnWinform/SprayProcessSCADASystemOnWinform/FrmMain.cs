@@ -35,7 +35,7 @@ namespace SprayProcessSCADASystemOnWinform {
             {"图表模块",Globals.ServiceProvider.GetRequiredService<PageChartManage>() },
             {"参数模块",Globals.ServiceProvider.GetRequiredService<PageSystemParameterSet>() }
         };
-        private List<string> AlarmList = new List<string>();
+        private List<string> alarmList = new List<string>();
         #endregion
 
         #region 初始化
@@ -66,7 +66,7 @@ namespace SprayProcessSCADASystemOnWinform {
         }
 
         private void InitOther() {
-            timer.Interval = 500;
+            timer.Interval = 1000;
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
         }
@@ -82,10 +82,10 @@ namespace SprayProcessSCADASystemOnWinform {
 
                     this.lbl_ProducteCount.Text = Globals.DataDic[lbl_ProducteCount.TagString].ToString();
                     this.lbl_BadCount.Text = Globals.DataDic[lbl_BadCount.TagString].ToString();
-                    this.lbl_Beat.Text = Globals.DataDic[lbl_Beat.TagString].ToString()+"S";
+                    this.lbl_Beat.Text = Globals.DataDic[lbl_Beat.TagString].ToString() + "S";
                     this.lbl_TotalAlarm.Text = Globals.DataDic[lbl_TotalAlarm.TagString].ToString();
-                    this.lbl_Temperature.Text = Globals.DataDic[lbl_Temperature.TagString].ToString()+ "°C";
-                    this.lbl_Humidness.Text = Globals.DataDic[lbl_Humidness.TagString].ToString()+"%";
+                    this.lbl_Temperature.Text = Globals.DataDic[lbl_Temperature.TagString].ToString() + "°C";
+                    this.lbl_Humidness.Text = Globals.DataDic[lbl_Humidness.TagString].ToString() + "%";
 
                     //CPU和内存
                     string CPUstr = RuntimeStatusHelper.DataManager.GetCpuUtilization();
@@ -98,6 +98,34 @@ namespace SprayProcessSCADASystemOnWinform {
                     this.lbl_Time.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
                     //报警
+                    //this.lbl_TotalAlarm.Text =  CheckAlarms(alarmList).Count.ToString();
+
+
+
+                    //if (this.lbl_TotalAlarm.Text.ToString() != "0") {
+                    //    led_ProducteState.On = !led_ProducteState.On;
+                    //    st_AlarmInfo
+                    //} else {
+                    //    led_ProducteState.On = true;
+                    //}
+                    List<string> alarmInfos = CheckAlarms(alarmList);
+                    this.lbl_TotalAlarm.Text = alarmInfos.Count.ToString();
+                    string alarms = string.Join(",", alarmInfos);
+                    if (alarms.IsNullOrEmpty()) {
+                        this.st_AlarmInfo.Text = "系统正常";
+                        this.st_AlarmInfo.ForeColor = Color.LightGreen;
+                        this.led_ProducteState.Color = Color.LightGreen;
+                        this.led_ProducteState.On = true;
+                        this.led_ProducteState.Blink = false;
+                    } else {
+                        this.st_AlarmInfo.Text = alarms;
+                        this.st_AlarmInfo.ForeColor = Color.Red;
+                        this.led_ProducteState.Color = Color.Red;
+
+                        this.led_ProducteState.BlinkInterval = 500;
+                        this.led_ProducteState.Blink = true;
+
+                    }
                 });
             } else {
                 this.lbl_ProducteCount.Text = Globals.DataDic[lbl_ProducteCount.TagString].ToString();
@@ -109,7 +137,15 @@ namespace SprayProcessSCADASystemOnWinform {
 
 
         }
-
+               private List<string> CheckAlarms(List<string> alarmList) {
+            List<string> alarmInfos = new List<string>();
+            foreach (var alarm in alarmList) {
+                if (Globals.DataDic[alarm].ToString() == "1") {
+                    alarmInfos.Add(alarm);
+                }
+            }
+            return alarmInfos;
+        }
         private void InitConfig() {
             //读取表格的路径
             Globals.PlcVarConfigPath = Globals.IniFile.ReadString("PLC参数", "变量表地址", Application.StartupPath + "\\PLC_Var_config.xlsx");
@@ -146,8 +182,8 @@ namespace SprayProcessSCADASystemOnWinform {
                 //初始化变量写入字典  名词-地址
                 Globals.WriteDic.Add(item.名称, item.PLC地址);
                 //添加报警集和
-                if (item.名称.EndsWith("报警")&& !item.名称.Equals("累计报警")) {
-                    AlarmList.Add(item.名称);
+                if (item.名称.EndsWith("报警") && !item.名称.Equals("累计报警")) {
+                    alarmList.Add(item.名称);
                 }
             }
             //初始化PLC  西门子客户端
@@ -419,6 +455,14 @@ namespace SprayProcessSCADASystemOnWinform {
                     break;
                 default:
                     break;
+            }
+        }
+
+        private void FrmMain_FormClosed(object sender, FormClosedEventArgs e) {
+            if (timer != null) {
+                timer.Stop();
+                timer.Dispose();  // 释放 Timer 资源
+                timer = null;
             }
         }
     }

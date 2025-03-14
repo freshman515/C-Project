@@ -33,7 +33,7 @@ namespace SprayProcessSCADASystemOnWinform {
         [Category("自定义属性")]
         [Browsable(true)]
         public float VarValue {
-            get { return varValue; }
+            get {  return varValue; }
             set {
                 varValue = value;
                 this.dl_Value.Value = varValue;

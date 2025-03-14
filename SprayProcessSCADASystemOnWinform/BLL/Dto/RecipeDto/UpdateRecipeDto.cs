@@ -13,7 +13,7 @@ namespace BLL {
         public string 粗洗液液位下限值 { get; set; } = string.Empty;
         public string 陶化喷淋泵过载上限值 { get; set; } = string.Empty;
         public string 精洗喷淋泵过载上限值 { get; set; } = string.Empty;
-        public string 精洗液液位下限值 { get; set; } = string.Empty;
+        public string 精洗液位下限值 { get; set; } = string.Empty;
         public string 水分炉温度上限值 { get; set; } = string.Empty;
         public string 水分炉温度下限值 { get; set; } = string.Empty;
         public string 冷却室离心风机过载上限值 { get; set; } = string.Empty;

@@ -28,15 +28,15 @@ namespace SprayProcessSCADASystemOnWinform {
             }
         }
 
-        private string varValue = "";
-        [Description("变量值")]
-        [Category("自定义属性")]
-        [Browsable(true)]
+        private string varValue  ;
+        //[Description("变量值")]
+        //[Category("自定义属性")]
+        //[Browsable(true)]
         public string VarValue {
             get { return varValue; }
             set {
                 varValue = value;
-                this.txt_Value.Text = varValue;
+                //this.txt_Value.Text = varValue;
             }
         }
 
