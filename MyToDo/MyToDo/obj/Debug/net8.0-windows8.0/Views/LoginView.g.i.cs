@@ -77,7 +77,7 @@ namespace MyToDo.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MyToDo;V1.0.0.0;component/views/loginview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MyToDo;component/views/loginview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\LoginView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

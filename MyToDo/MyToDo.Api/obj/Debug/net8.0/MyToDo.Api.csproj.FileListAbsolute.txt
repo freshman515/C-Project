@@ -166,3 +166,4 @@ D:\pragma\C# Project\MyToDo\MyToDo.Api\obj\Debug\net8.0\MyToDo.Api.pdb
 D:\pragma\C# Project\MyToDo\MyToDo.Api\obj\Debug\net8.0\MyToDo.Api.genruntimeconfig.cache
 D:\pragma\C# Project\MyToDo\MyToDo.Api\obj\Debug\net8.0\ref\MyToDo.Api.dll
 D:\pragma\C# Project\MyToDo\MyToDo.Api\bin\Debug\net8.0\web.config
+D:\pragma\C# Project\MyToDo\MyToDo.Api\obj\Debug\net8.0\MyToDo.Api.sourcelink.json

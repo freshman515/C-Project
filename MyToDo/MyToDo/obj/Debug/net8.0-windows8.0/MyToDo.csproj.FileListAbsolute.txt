@@ -56,3 +56,4 @@ D:\pragma\C# Project\MyToDo\MyToDo\obj\Debug\net8.0-windows8.0\Views\MsgView.bam
 D:\pragma\C# Project\MyToDo\MyToDo\obj\Debug\net8.0-windows8.0\Views\LoginView.g.cs
 D:\pragma\C# Project\MyToDo\MyToDo\obj\Debug\net8.0-windows8.0\Views\LoginView.baml
 D:\pragma\C# Project\MyToDo\MyToDo\obj\Debug\net8.0-windows8.0\MyToDo_Content.g.cs
+D:\pragma\C# Project\MyToDo\MyToDo\obj\Debug\net8.0-windows8.0\MyToDo.sourcelink.json

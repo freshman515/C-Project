@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\pragma\\C# Project\\MyToDo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|d:\\pragma\\c# project\\mytodo\\mytodo.api\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|solutionrelative:mytodo.api\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|d:\\pragma\\c# project\\mytodo\\mytodo\\viewmodels\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\viewmodels\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|d:\\pragma\\c# project\\mytodo\\mytodo\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|d:\\pragma\\c# project\\mytodo\\mytodo.api\\logs\\stdout_20250227041418_30972.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|solutionrelative:mytodo.api\\logs\\stdout_20250227041418_30972.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|d:\\pragma\\c# project\\mytodo\\mytodo\\service\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\service\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|d:\\pragma\\c# project\\mytodo\\mytodo\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|d:\\pragma\\c# project\\mytodo\\mytodo.api\\service\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|solutionrelative:mytodo.api\\service\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|d:\\pragma\\c# project\\mytodo\\mytodo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|solutionrelative:mytodo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -51,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\extensins\\passwordextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|d:\\pragma\\c# project\\mytodo\\mytodo\\viewmodels\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\viewmodels\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|d:\\pragma\\c# project\\mytodo\\mytodo\\views\\todoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\views\\todoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|d:\\pragma\\c# project\\mytodo\\mytodo\\views\\indexview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\views\\indexview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|d:\\pragma\\c# project\\mytodo\\mytodo\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|solutionrelative:mytodo\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87C0A586-C6AB-4B0A-9B45-3B48B1D5D719}|MyToDo\\MyToDo.csproj|d:\\pragma\\c# project\\mytodo\\mytodo\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -100,10 +120,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|d:\\pragma\\c# project\\mytodo\\mytodo.api\\mytodo.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|solutionrelative:mytodo.api\\mytodo.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|d:\\pragma\\c# project\\mytodo\\mytodo.api\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F12D15C-D3C8-48B6-98B0-54E6B73C2487}|MyToDo.Api\\MyToDo.Api.csproj|solutionrelative:mytodo.api\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -113,7 +129,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -121,7 +137,145 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "stdout_20250227041418_30972.log",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\logs\\stdout_20250227041418_30972.log",
+              "RelativeDocumentMoniker": "MyToDo.Api\\logs\\stdout_20250227041418_30972.log",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\logs\\stdout_20250227041418_30972.log",
+              "RelativeToolTip": "MyToDo.Api\\logs\\stdout_20250227041418_30972.log",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-13T14:31:21.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToDoService.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Service\\ToDoService.cs",
+              "RelativeDocumentMoniker": "MyToDo\\Service\\ToDoService.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Service\\ToDoService.cs",
+              "RelativeToolTip": "MyToDo\\Service\\ToDoService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:27:08.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "MyToDo\\Service\\LoginService.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Service\\LoginService.cs",
+              "RelativeToolTip": "MyToDo\\Service\\LoginService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvxQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:26:25.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "MyToDo.Api\\appsettings.json",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\appsettings.json",
+              "RelativeToolTip": "MyToDo.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-27T06:59:16.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MyToDo\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "MyToDo\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAUwDMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T03:18:53.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "MyToDo.Api\\Service\\LoginService.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Service\\LoginService.cs",
+              "RelativeToolTip": "MyToDo.Api\\Service\\LoginService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:07:14.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\ToDoViewModel.cs",
+              "RelativeDocumentMoniker": "MyToDo\\ViewModels\\ToDoViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\ToDoViewModel.cs",
+              "RelativeToolTip": "MyToDo\\ViewModels\\ToDoViewModel.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAYwHIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T03:45:28.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IndexView.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\IndexView.xaml",
+              "RelativeDocumentMoniker": "MyToDo\\Views\\IndexView.xaml",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\IndexView.xaml",
+              "RelativeToolTip": "MyToDo\\Views\\IndexView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-27T12:03:04.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddToDoView.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\Dialogs\\AddToDoView.xaml",
+              "RelativeDocumentMoniker": "MyToDo\\Views\\Dialogs\\AddToDoView.xaml",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\Dialogs\\AddToDoView.xaml",
+              "RelativeToolTip": "MyToDo\\Views\\Dialogs\\AddToDoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-28T02:25:00.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Service\\ILoginService.cs",
+              "RelativeDocumentMoniker": "MyToDo.Api\\Service\\ILoginService.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Service\\ILoginService.cs",
+              "RelativeToolTip": "MyToDo.Api\\Service\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:20:39.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyToDoContext.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Context\\MyToDoContext.cs",
+              "RelativeDocumentMoniker": "MyToDo.Api\\Context\\MyToDoContext.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Context\\MyToDoContext.cs",
+              "RelativeToolTip": "MyToDo.Api\\Context\\MyToDoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:54:48.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AddToDoViewModel.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\Dialogs\\AddToDoViewModel.cs",
               "RelativeDocumentMoniker": "MyToDo\\ViewModels\\Dialogs\\AddToDoViewModel.cs",
@@ -133,56 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddToDoView.xaml",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\Dialogs\\AddToDoView.xaml",
-              "RelativeDocumentMoniker": "MyToDo\\Views\\Dialogs\\AddToDoView.xaml",
-              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\Dialogs\\AddToDoView.xaml",
-              "RelativeToolTip": "MyToDo\\Views\\Dialogs\\AddToDoView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-28T02:25:00.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IndexView.xaml",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\IndexView.xaml",
-              "RelativeDocumentMoniker": "MyToDo\\Views\\IndexView.xaml",
-              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\IndexView.xaml",
-              "RelativeToolTip": "MyToDo\\Views\\IndexView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T12:03:04.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "MyToDo.Api\\appsettings.json",
-              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\appsettings.json",
-              "RelativeToolTip": "MyToDo.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-27T06:59:16.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyToDoContext.cs",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Context\\MyToDoContext.cs",
-              "RelativeDocumentMoniker": "MyToDo.Api\\Context\\MyToDoContext.cs",
-              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Context\\MyToDoContext.cs",
-              "RelativeToolTip": "MyToDo.Api\\Context\\MyToDoContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:54:48.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Context\\User.cs",
               "RelativeDocumentMoniker": "MyToDo.Api\\Context\\User.cs",
@@ -194,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "PassWordExtension.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Extensins\\PassWordExtension.cs",
               "RelativeDocumentMoniker": "MyToDo\\Extensins\\PassWordExtension.cs",
@@ -206,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "IndexViewModel.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\IndexViewModel.cs",
               "RelativeDocumentMoniker": "MyToDo\\ViewModels\\IndexViewModel.cs",
@@ -218,19 +323,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "ToDoView.xaml",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\ToDoView.xaml",
               "RelativeDocumentMoniker": "MyToDo\\Views\\ToDoView.xaml",
               "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\ToDoView.xaml",
               "RelativeToolTip": "MyToDo\\Views\\ToDoView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T03:55:14.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T03:55:14.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "MyToDo\\Views\\LoginView.xaml",
@@ -241,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "LoginView.xaml.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\LoginView.xaml.cs",
               "RelativeDocumentMoniker": "MyToDo\\Views\\LoginView.xaml.cs",
@@ -253,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "IndexView.xaml.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\IndexView.xaml.cs",
               "RelativeDocumentMoniker": "MyToDo\\Views\\IndexView.xaml.cs",
@@ -265,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "ItemCollection.cs",
               "DocumentMoniker": "C:\\Users\\22004\\AppData\\Local\\Temp\\.vsdbgsrc\\fb15084c48174bff3023217d1ad58e803e1e4322708722f333707ce4bd465108\\ItemCollection.cs",
               "ToolTip": "C:\\Users\\22004\\AppData\\Local\\Temp\\.vsdbgsrc\\fb15084c48174bff3023217d1ad58e803e1e4322708722f333707ce4bd465108\\ItemCollection.cs [\u53EA\u8BFB]",
@@ -276,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "MainView.xaml",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\MainView.xaml",
               "RelativeDocumentMoniker": "MyToDo\\Views\\MainView.xaml",
@@ -287,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "ToDoView.xaml.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\ToDoView.xaml.cs",
               "RelativeDocumentMoniker": "MyToDo\\Views\\ToDoView.xaml.cs",
@@ -299,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "MainView.xaml.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\Views\\MainView.xaml.cs",
               "RelativeDocumentMoniker": "MyToDo\\Views\\MainView.xaml.cs",
@@ -311,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MyToDo\\ViewModels\\MainViewModel.cs",
@@ -323,19 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ToDoViewModel.cs",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\ToDoViewModel.cs",
-              "RelativeDocumentMoniker": "MyToDo\\ViewModels\\ToDoViewModel.cs",
-              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\ToDoViewModel.cs",
-              "RelativeToolTip": "MyToDo\\ViewModels\\ToDoViewModel.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAYwHIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T03:45:28.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "web.config",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\web.config",
               "RelativeDocumentMoniker": "MyToDo.Api\\web.config",
@@ -347,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "MyToDo.Api",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\MyToDo.Api.csproj",
               "RelativeDocumentMoniker": "MyToDo.Api\\MyToDo.Api.csproj",
@@ -358,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "MyToDo.csproj",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\MyToDo.csproj",
               "RelativeDocumentMoniker": "MyToDo\\MyToDo.csproj",
@@ -370,19 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "MyToDo\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "MyToDo\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowC4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T03:18:53.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "MyToDo.Api.http",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\MyToDo.Api.http",
               "RelativeDocumentMoniker": "MyToDo.Api\\MyToDo.Api.http",
@@ -394,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Program.cs",
               "RelativeDocumentMoniker": "MyToDo.Api\\Program.cs",
@@ -406,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "ToDoService.cs",
               "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Service\\ToDoService.cs",
               "RelativeDocumentMoniker": "MyToDo.Api\\Service\\ToDoService.cs",
@@ -415,18 +495,6 @@
               "ViewState": "AgIAADAAAAAAAAAAAAApwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T11:39:39.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Service\\LoginService.cs",
-              "RelativeDocumentMoniker": "MyToDo.Api\\Service\\LoginService.cs",
-              "ToolTip": "D:\\pragma\\C# Project\\MyToDo\\MyToDo.Api\\Service\\LoginService.cs",
-              "RelativeToolTip": "MyToDo.Api\\Service\\LoginService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAywBAAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T12:07:14.087Z"
             }
           ]
         }

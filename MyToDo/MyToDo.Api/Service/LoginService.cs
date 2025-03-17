@@ -32,14 +32,11 @@ namespace MyToDo.Api.Service {
                 var model = Mapper.Map<User>(user);
                 var repository = Work.GetRepository<User>();
                 var userModel = await repository.GetFirstOrDefaultAsync(predicate: x => x.Account.Equals(model.Account));
-
                 if (userModel != null)
                     return new ApiResponse($"当前账号:{model.Account}已存在,请重新注册！");
-
                 model.CreateDate = DateTime.Now;
                 model.Password = model.Password.GetMD5();
                 await repository.InsertAsync(model);
-
                 if (await Work.SaveChangesAsync() > 0)
                     return new ApiResponse(true, model);
 
