@@ -36,7 +36,7 @@ namespace SprayProcessSCADASystemOnWinform {
             get { return varValue; }
             set {
                 varValue = value;
-                //this.txt_Value.Text = varValue;
+               this.txt_Value.Text = varValue;
             }
         }
 

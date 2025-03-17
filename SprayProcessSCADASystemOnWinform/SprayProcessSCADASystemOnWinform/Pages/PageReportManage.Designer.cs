@@ -45,7 +45,7 @@
             固化炉测量温度 = new DataGridViewTextBoxColumn();
             厂内温度 = new DataGridViewTextBoxColumn();
             厂内湿度 = new DataGridViewTextBoxColumn();
-            uiPagination1 = new Sunny.UI.UIPagination();
+            pgn_Data = new Sunny.UI.UIPagination();
             ((System.ComponentModel.ISupportInitialize)dgv_Data).BeginInit();
             SuspendLayout();
             // 
@@ -64,18 +64,19 @@
             // dtp_Start
             // 
             dtp_Start.FillColor = Color.White;
-            dtp_Start.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dtp_Start.Font = new Font("宋体", 10F);
             dtp_Start.Location = new Point(213, 41);
             dtp_Start.Margin = new Padding(4, 5, 4, 5);
             dtp_Start.MaxLength = 19;
             dtp_Start.MinimumSize = new Size(63, 0);
             dtp_Start.Name = "dtp_Start";
             dtp_Start.Padding = new Padding(0, 0, 30, 2);
-            dtp_Start.Size = new Size(283, 54);
+            dtp_Start.Size = new Size(302, 54);
             dtp_Start.SymbolDropDown = 61555;
             dtp_Start.SymbolNormal = 61555;
             dtp_Start.SymbolSize = 24;
             dtp_Start.TabIndex = 1;
+            dtp_Start.Text = "2025-03-10 20:29:42";
             dtp_Start.TextAlignment = ContentAlignment.MiddleLeft;
             dtp_Start.Value = new DateTime(2025, 3, 10, 20, 29, 42, 162);
             dtp_Start.Watermark = "";
@@ -95,18 +96,19 @@
             // dtp_End
             // 
             dtp_End.FillColor = Color.White;
-            dtp_End.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dtp_End.Font = new Font("宋体", 10F);
             dtp_End.Location = new Point(719, 41);
             dtp_End.Margin = new Padding(4, 5, 4, 5);
             dtp_End.MaxLength = 19;
             dtp_End.MinimumSize = new Size(63, 0);
             dtp_End.Name = "dtp_End";
             dtp_End.Padding = new Padding(0, 0, 30, 2);
-            dtp_End.Size = new Size(300, 54);
+            dtp_End.Size = new Size(311, 54);
             dtp_End.SymbolDropDown = 61555;
             dtp_End.SymbolNormal = 61555;
             dtp_End.SymbolSize = 24;
             dtp_End.TabIndex = 1;
+            dtp_End.Text = "2025-03-10 20:29:42";
             dtp_End.TextAlignment = ContentAlignment.MiddleLeft;
             dtp_End.Value = new DateTime(2025, 3, 10, 20, 29, 42, 162);
             dtp_End.Watermark = "";
@@ -123,6 +125,7 @@
             btn_QueryData.TabIndex = 2;
             btn_QueryData.Text = "查询数据";
             btn_QueryData.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_QueryData.Click += btn_QueryData_Click;
             // 
             // btn_ExportData
             // 
@@ -136,6 +139,7 @@
             btn_ExportData.TabIndex = 2;
             btn_ExportData.Text = "导出数据";
             btn_ExportData.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_ExportData.Click += btn_ExportData_Click;
             // 
             // dgv_Data
             // 
@@ -277,26 +281,28 @@
             厂内湿度.ReadOnly = true;
             厂内湿度.Width = 148;
             // 
-            // uiPagination1
+            // pgn_Data
             // 
-            uiPagination1.ButtonFillSelectedColor = Color.FromArgb(64, 128, 204);
-            uiPagination1.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            uiPagination1.Location = new Point(13, 775);
-            uiPagination1.Margin = new Padding(4, 5, 4, 5);
-            uiPagination1.MinimumSize = new Size(1, 1);
-            uiPagination1.Name = "uiPagination1";
-            uiPagination1.RectSides = ToolStripStatusLabelBorderSides.None;
-            uiPagination1.ShowText = false;
-            uiPagination1.Size = new Size(1067, 42);
-            uiPagination1.TabIndex = 4;
-            uiPagination1.Text = "uiPagination1";
-            uiPagination1.TextAlignment = ContentAlignment.MiddleCenter;
+            pgn_Data.ButtonFillSelectedColor = Color.FromArgb(64, 128, 204);
+            pgn_Data.ButtonStyleInherited = false;
+            pgn_Data.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            pgn_Data.Location = new Point(13, 775);
+            pgn_Data.Margin = new Padding(4, 5, 4, 5);
+            pgn_Data.MinimumSize = new Size(1, 1);
+            pgn_Data.Name = "pgn_Data";
+            pgn_Data.RectSides = ToolStripStatusLabelBorderSides.None;
+            pgn_Data.ShowText = false;
+            pgn_Data.Size = new Size(1067, 42);
+            pgn_Data.TabIndex = 4;
+            pgn_Data.Text = "uiPagination1";
+            pgn_Data.TextAlignment = ContentAlignment.MiddleCenter;
+            pgn_Data.PageChanged += pgn_Data_PageChanged;
             // 
             // PageReportManage
             // 
             AutoScaleMode = AutoScaleMode.None;
             ClientSize = new Size(1508, 831);
-            Controls.Add(uiPagination1);
+            Controls.Add(pgn_Data);
             Controls.Add(dgv_Data);
             Controls.Add(btn_ExportData);
             Controls.Add(btn_QueryData);
@@ -330,6 +336,6 @@
         private DataGridViewTextBoxColumn 固化炉测量温度;
         private DataGridViewTextBoxColumn 厂内温度;
         private DataGridViewTextBoxColumn 厂内湿度;
-        private Sunny.UI.UIPagination uiPagination1;
+        private Sunny.UI.UIPagination pgn_Data;
     }
 }

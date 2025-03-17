@@ -56,5 +56,12 @@ namespace SprayProcessSCADASystemOnWinform.UserControls {
                 this.ShowErrorTip(res.Message);
             }
         }
+        protected override CreateParams CreateParams {
+            get {
+                CreateParams paras = base.CreateParams;
+                paras.ExStyle |= 0x02000000;
+                return paras;
+            }
+        }
     }
 }

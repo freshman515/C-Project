@@ -141,8 +141,14 @@ namespace SprayProcessSCADASystemOnWinform {
         private void dgv_User_DoubleClick(object sender, EventArgs e) {
 
         }
+        protected override CreateParams CreateParams {
+            get {
+                CreateParams paras = base.CreateParams;
+                paras.ExStyle |= 0x02000000;
+                return paras;
+            }
+        }
 
-      
     }
 
 }

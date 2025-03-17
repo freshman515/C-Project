@@ -14,7 +14,10 @@ namespace SprayProcessSCADASystemOnWinform {
         public static ServiceProvider ServiceProvider;
         public static IniFile IniFile = new IniFile(Application.StartupPath + "\\config.ini");
         public static string PlcVarConfigPath;
-
+        public static string DelFilePath;
+        public static string SaveDay;
+        public static string SoftwareVersion;
+        public static string SoftTime;
         //plc配置
         public static SiemensClient SiemensClient;
         //CPU类型
@@ -40,12 +43,13 @@ namespace SprayProcessSCADASystemOnWinform {
         public static Dictionary<string, object> DataDic = new Dictionary<string, object>();
         //PLC变量 写入 字典  <名称-地址>  目的都是为了不直接操作地址
         public static Dictionary<string, string> WriteDic = new Dictionary<string, string>();
+        //PLC变量 需要保存的集和
+        public static List<string> SelfList = new List<string>();
 
-
-        public static bool PlcWrite(string varName, dynamic value) {
+        public static bool PlcWrite(string varName, object value, DataTypeEnum dataTypeEnum=DataTypeEnum.Bool) {
             if (SiemensClient != null && SiemensClient.Connected) {
                 var address = WriteDic[varName];
-                var result = SiemensClient.Write(address, value);
+                var result = SiemensClient.Write(address, value,dataTypeEnum);
                 if (result.IsSucceed) {
                     return true;
                 } else {

@@ -14,6 +14,11 @@ namespace SprayProcessSCADASystemOnWinform {
         private List<Control> controls;
         public PageEquipmentMonitor3() {
             InitializeComponent();
+            Load += PageEquipmentMonitor3_Load;
+           
+        }
+
+        private void PageEquipmentMonitor3_Load(object? sender, EventArgs e) {
             controls = Globals.GetAllControls(this);
             this.timer1.Interval = 500; //间隔500ms
             this.timer1.Tick += Timer1_Tick;
@@ -38,6 +43,13 @@ namespace SprayProcessSCADASystemOnWinform {
             }
 
 
+        }
+        protected override CreateParams CreateParams {
+            get {
+                CreateParams paras = base.CreateParams;
+                paras.ExStyle |= 0x02000000;
+                return paras;
+            }
         }
     }
 }

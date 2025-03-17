@@ -13,6 +13,7 @@ using Model;
 using System.Windows.Forms;
 using BLL;
 using Sunny.UI;
+using Yale.SprayProcessSCADASystem;
 
 namespace SprayProcessSCADASystemOnWinform {
     internal static class Program {
@@ -28,11 +29,8 @@ namespace SprayProcessSCADASystemOnWinform {
             //构建服务提供者
             var serviceProvider = service.BuildServiceProvider();
             Globals.ServiceProvider = serviceProvider;
-            ApplicationConfiguration.Initialize();
-
-          
-
             var db=Globals.ServiceProvider.GetRequiredService<ISqlSugarClient>();
+            ApplicationConfiguration.Initialize();
 #if DEBUG   //只有在debug模式下才能用，因为它会根据实体改变表结构
             //db.CodeFirst这是 SqlSugar ORM 中的 Code First（代码优先）模式，允许你通过 C# 类自动创建数据库表，而不需要手动写 SQL。
             //SetStringDefaultLength(200)设置数据库中 字符串类型（string）的默认长度为 200
@@ -46,8 +44,9 @@ namespace SprayProcessSCADASystemOnWinform {
 
         private static void ConfigureService(ServiceCollection service) {
             var temp = typeof(UserManager);//为了确保bll.dll被加载
-            // service.AddDependencyInjection(new List<Assembly>() { typeof(Program).Assembly,});
-
+                                           // service.AddDependencyInjection(new List<Assembly>() { typeof(Program).Assembly,});
+            service.AddSingleton<FrmMain>();
+            service.AddSingleton<FromStartLoad>();
             //注册所有服务
             var assemblies = AppDomain.CurrentDomain.GetAssemblies(); // 获取所有加载的程序集
             var types = assemblies
@@ -67,8 +66,8 @@ namespace SprayProcessSCADASystemOnWinform {
                 service.AddSingleton(type);
             }
             //注册
-            service.AddSingleton<FrmMain>();
-                    
+        
+
             //注册json配置
             IConfigurationBuilder cfgBuilder = new ConfigurationBuilder().
                 SetBasePath(Environment.CurrentDirectory).AddJsonFile("appsettings.json");

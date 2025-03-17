@@ -37,8 +37,8 @@
             cb_LogLev = new Sunny.UI.UIComboBox();
             cb_Date = new Sunny.UI.UIComboBox();
             uiTitlePanel2 = new Sunny.UI.UITitlePanel();
-            uiTitlePanel3 = new Sunny.UI.UITitlePanel();
             txt_ShowLog = new Sunny.UI.UITextBox();
+            uiTitlePanel3 = new Sunny.UI.UITitlePanel();
             dgv_ShowLog = new Sunny.UI.UIDataGridView();
             uiTitlePanel1.SuspendLayout();
             uiTitlePanel2.SuspendLayout();
@@ -80,6 +80,7 @@
             btn_ExportExcel.TabIndex = 3;
             btn_ExportExcel.Text = "日志导出Excel";
             btn_ExportExcel.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_ExportExcel.Click += btn_ExportExcel_Click;
             // 
             // btn_ShowToTXT
             // 
@@ -93,6 +94,7 @@
             btn_ShowToTXT.TabIndex = 3;
             btn_ShowToTXT.Text = "日志导出TXT";
             btn_ShowToTXT.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_ShowToTXT.Click += btn_ShowToTXT_Click;
             // 
             // btn_ShowToDgv
             // 
@@ -106,6 +108,7 @@
             btn_ShowToDgv.TabIndex = 3;
             btn_ShowToDgv.Text = "显示到表格";
             btn_ShowToDgv.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_ShowToDgv.Click += btn_ShowToDgv_Click;
             // 
             // btn_OpenDire
             // 
@@ -119,6 +122,7 @@
             btn_OpenDire.TabIndex = 3;
             btn_OpenDire.Text = "打开日志目录";
             btn_OpenDire.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_OpenDire.Click += btn_OpenDire_Click;
             // 
             // lb_Files
             // 
@@ -134,6 +138,7 @@
             lb_Files.Size = new Size(456, 238);
             lb_Files.TabIndex = 2;
             lb_Files.Text = "uiListBox1";
+            lb_Files.SelectedIndexChanged += lb_Files_SelectedIndexChanged;
             // 
             // cb_LogLev
             // 
@@ -152,6 +157,7 @@
             cb_LogLev.TabIndex = 1;
             cb_LogLev.TextAlignment = ContentAlignment.MiddleLeft;
             cb_LogLev.Watermark = "选择类型";
+            cb_LogLev.SelectedIndexChanged += cb_LogLev_SelectedIndexChanged;
             // 
             // cb_Date
             // 
@@ -170,6 +176,7 @@
             cb_Date.TabIndex = 0;
             cb_Date.TextAlignment = ContentAlignment.MiddleLeft;
             cb_Date.Watermark = "选择日期";
+            cb_Date.SelectedIndexChanged += cb_Date_SelectedIndexChanged;
             // 
             // uiTitlePanel2
             // 
@@ -186,6 +193,22 @@
             uiTitlePanel2.Text = "文本显示";
             uiTitlePanel2.TextAlignment = ContentAlignment.MiddleCenter;
             // 
+            // txt_ShowLog
+            // 
+            txt_ShowLog.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            txt_ShowLog.Location = new Point(0, 36);
+            txt_ShowLog.Margin = new Padding(4, 5, 4, 5);
+            txt_ShowLog.MinimumSize = new Size(1, 16);
+            txt_ShowLog.Multiline = true;
+            txt_ShowLog.Name = "txt_ShowLog";
+            txt_ShowLog.Padding = new Padding(5);
+            txt_ShowLog.ShowScrollBar = true;
+            txt_ShowLog.ShowText = false;
+            txt_ShowLog.Size = new Size(476, 790);
+            txt_ShowLog.TabIndex = 0;
+            txt_ShowLog.TextAlignment = ContentAlignment.MiddleLeft;
+            txt_ShowLog.Watermark = "";
+            // 
             // uiTitlePanel3
             // 
             uiTitlePanel3.Controls.Add(dgv_ShowLog);
@@ -200,21 +223,6 @@
             uiTitlePanel3.TabIndex = 0;
             uiTitlePanel3.Text = "表格显示";
             uiTitlePanel3.TextAlignment = ContentAlignment.MiddleCenter;
-            // 
-            // txt_ShowLog
-            // 
-            txt_ShowLog.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            txt_ShowLog.Location = new Point(0, 36);
-            txt_ShowLog.Margin = new Padding(4, 5, 4, 5);
-            txt_ShowLog.MinimumSize = new Size(1, 16);
-            txt_ShowLog.Multiline = true;
-            txt_ShowLog.Name = "txt_ShowLog";
-            txt_ShowLog.Padding = new Padding(5);
-            txt_ShowLog.ShowText = false;
-            txt_ShowLog.Size = new Size(476, 790);
-            txt_ShowLog.TabIndex = 0;
-            txt_ShowLog.TextAlignment = ContentAlignment.MiddleLeft;
-            txt_ShowLog.Watermark = "";
             // 
             // dgv_ShowLog
             // 

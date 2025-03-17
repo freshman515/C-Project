@@ -107,6 +107,7 @@
             btn_QueryData.TabIndex = 3;
             btn_QueryData.Text = "查询数据";
             btn_QueryData.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            btn_QueryData.Click += btn_QueryData_Click;
             // 
             // lc_Chart
             // 

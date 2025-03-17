@@ -14,6 +14,11 @@ namespace SprayProcessSCADASystemOnWinform {
         private List<Control> controls;
         public PageEquipmentMonitor() {
             InitializeComponent();
+            Load += PageEquipmentMonitor_Load;
+           
+        }
+
+        private void PageEquipmentMonitor_Load(object? sender, EventArgs e) {
             controls = Globals.GetAllControls(this);
             this.timer1.Interval = 500; //间隔500ms
             this.timer1.Tick += Timer1_Tick;

@@ -61,5 +61,7 @@ namespace SprayProcessSCADASystemOnWinform {
             get { return variableName; }
             set { variableName = value; }
         }
+
+        
     }
 }

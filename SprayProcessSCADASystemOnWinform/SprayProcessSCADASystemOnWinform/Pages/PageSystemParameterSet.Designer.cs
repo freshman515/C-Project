@@ -23,10 +23,10 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            cb_CPUType = new Sunny.UI.UITitlePanel();
+            uIPanel1 = new Sunny.UI.UITitlePanel();
             txt_PLCVarAddressPath = new Sunny.UI.UITextBox();
             uiLabel11 = new Sunny.UI.UILabel();
-            uiComboBox1 = new Sunny.UI.UIComboBox();
+            cb_CPUType = new Sunny.UI.UIComboBox();
             txt_ReConnectTimeInterval = new Sunny.UI.UITextBox();
             txt_ConnectTimeOut = new Sunny.UI.UITextBox();
             txt_ReadTimeInterval = new Sunny.UI.UITextBox();
@@ -52,42 +52,42 @@
             txt_SoftwareVersion = new Sunny.UI.UITextBox();
             uiLabel5 = new Sunny.UI.UILabel();
             btn_Save = new Sunny.UI.UIButton();
-            cb_CPUType.SuspendLayout();
+            uIPanel1.SuspendLayout();
             uiTitlePanel2.SuspendLayout();
             uiTitlePanel3.SuspendLayout();
             SuspendLayout();
             // 
-            // cb_CPUType
+            // uIPanel1
             // 
-            cb_CPUType.Controls.Add(txt_PLCVarAddressPath);
-            cb_CPUType.Controls.Add(uiLabel11);
-            cb_CPUType.Controls.Add(uiComboBox1);
-            cb_CPUType.Controls.Add(txt_ReConnectTimeInterval);
-            cb_CPUType.Controls.Add(txt_ConnectTimeOut);
-            cb_CPUType.Controls.Add(txt_ReadTimeInterval);
-            cb_CPUType.Controls.Add(txt_Slot);
-            cb_CPUType.Controls.Add(txt_Rack);
-            cb_CPUType.Controls.Add(txt_Port);
-            cb_CPUType.Controls.Add(uiLabel10);
-            cb_CPUType.Controls.Add(uiLabel8);
-            cb_CPUType.Controls.Add(uiLabel7);
-            cb_CPUType.Controls.Add(uiLabel6);
-            cb_CPUType.Controls.Add(机架号);
-            cb_CPUType.Controls.Add(uiLabel4);
-            cb_CPUType.Controls.Add(uiLabel3);
-            cb_CPUType.Controls.Add(txt_IPAddress);
-            cb_CPUType.Controls.Add(uiLabel1);
-            cb_CPUType.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            cb_CPUType.Location = new Point(13, 14);
-            cb_CPUType.Margin = new Padding(4, 5, 4, 5);
-            cb_CPUType.MinimumSize = new Size(1, 1);
-            cb_CPUType.Name = "cb_CPUType";
-            cb_CPUType.Padding = new Padding(1, 35, 1, 1);
-            cb_CPUType.ShowText = false;
-            cb_CPUType.Size = new Size(891, 510);
-            cb_CPUType.TabIndex = 0;
-            cb_CPUType.Text = "PLC参数";
-            cb_CPUType.TextAlignment = ContentAlignment.MiddleCenter;
+            uIPanel1.Controls.Add(txt_PLCVarAddressPath);
+            uIPanel1.Controls.Add(uiLabel11);
+            uIPanel1.Controls.Add(cb_CPUType);
+            uIPanel1.Controls.Add(txt_ReConnectTimeInterval);
+            uIPanel1.Controls.Add(txt_ConnectTimeOut);
+            uIPanel1.Controls.Add(txt_ReadTimeInterval);
+            uIPanel1.Controls.Add(txt_Slot);
+            uIPanel1.Controls.Add(txt_Rack);
+            uIPanel1.Controls.Add(txt_Port);
+            uIPanel1.Controls.Add(uiLabel10);
+            uIPanel1.Controls.Add(uiLabel8);
+            uIPanel1.Controls.Add(uiLabel7);
+            uIPanel1.Controls.Add(uiLabel6);
+            uIPanel1.Controls.Add(机架号);
+            uIPanel1.Controls.Add(uiLabel4);
+            uIPanel1.Controls.Add(uiLabel3);
+            uIPanel1.Controls.Add(txt_IPAddress);
+            uIPanel1.Controls.Add(uiLabel1);
+            uIPanel1.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            uIPanel1.Location = new Point(13, 14);
+            uIPanel1.Margin = new Padding(4, 5, 4, 5);
+            uIPanel1.MinimumSize = new Size(1, 1);
+            uIPanel1.Name = "uIPanel1";
+            uIPanel1.Padding = new Padding(1, 35, 1, 1);
+            uIPanel1.ShowText = false;
+            uIPanel1.Size = new Size(891, 510);
+            uIPanel1.TabIndex = 0;
+            uIPanel1.Text = "PLC参数";
+            uIPanel1.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // txt_PLCVarAddressPath
             // 
@@ -113,23 +113,23 @@
             uiLabel11.TabIndex = 4;
             uiLabel11.Text = "PLC变量地址配置";
             // 
-            // uiComboBox1
+            // cb_CPUType
             // 
-            uiComboBox1.DataSource = null;
-            uiComboBox1.FillColor = Color.White;
-            uiComboBox1.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            uiComboBox1.ItemHoverColor = Color.FromArgb(155, 200, 255);
-            uiComboBox1.ItemSelectForeColor = Color.FromArgb(235, 243, 255);
-            uiComboBox1.Location = new Point(127, 260);
-            uiComboBox1.Margin = new Padding(4, 5, 4, 5);
-            uiComboBox1.MinimumSize = new Size(63, 0);
-            uiComboBox1.Name = "uiComboBox1";
-            uiComboBox1.Padding = new Padding(0, 0, 30, 2);
-            uiComboBox1.Size = new Size(270, 55);
-            uiComboBox1.SymbolSize = 24;
-            uiComboBox1.TabIndex = 3;
-            uiComboBox1.TextAlignment = ContentAlignment.MiddleLeft;
-            uiComboBox1.Watermark = "";
+            cb_CPUType.DataSource = null;
+            cb_CPUType.FillColor = Color.White;
+            cb_CPUType.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            cb_CPUType.ItemHoverColor = Color.FromArgb(155, 200, 255);
+            cb_CPUType.ItemSelectForeColor = Color.FromArgb(235, 243, 255);
+            cb_CPUType.Location = new Point(127, 260);
+            cb_CPUType.Margin = new Padding(4, 5, 4, 5);
+            cb_CPUType.MinimumSize = new Size(63, 0);
+            cb_CPUType.Name = "cb_CPUType";
+            cb_CPUType.Padding = new Padding(0, 0, 30, 2);
+            cb_CPUType.Size = new Size(270, 55);
+            cb_CPUType.SymbolSize = 24;
+            cb_CPUType.TabIndex = 3;
+            cb_CPUType.TextAlignment = ContentAlignment.MiddleLeft;
+            cb_CPUType.Watermark = "";
             // 
             // txt_ReConnectTimeInterval
             // 
@@ -451,11 +451,11 @@
             Controls.Add(btn_Save);
             Controls.Add(uiTitlePanel3);
             Controls.Add(uiTitlePanel2);
-            Controls.Add(cb_CPUType);
+            Controls.Add(uIPanel1);
             Name = "PageSystemParameterSet";
             Symbol = 559577;
             Text = "参数管理";
-            cb_CPUType.ResumeLayout(false);
+            uIPanel1.ResumeLayout(false);
             uiTitlePanel2.ResumeLayout(false);
             uiTitlePanel3.ResumeLayout(false);
             ResumeLayout(false);
@@ -463,7 +463,7 @@
 
         #endregion
 
-        private Sunny.UI.UITitlePanel cb_CPUType;
+        private Sunny.UI.UITitlePanel uIPanel1;
         private Sunny.UI.UITitlePanel uiTitlePanel2;
         private Sunny.UI.UITitlePanel uiTitlePanel3;
         private Sunny.UI.UILabel uiLabel1;
@@ -476,7 +476,7 @@
         private Sunny.UI.UILabel uiLabel8;
         private Sunny.UI.UILabel uiLabel7;
         private Sunny.UI.UITextBox txt_Port;
-        private Sunny.UI.UIComboBox uiComboBox1;
+        private Sunny.UI.UIComboBox cb_CPUType;
         private Sunny.UI.UITextBox txt_Rack;
         private Sunny.UI.UITextBox txt_Slot;
         private Sunny.UI.UITextBox txt_ReadTimeInterval;

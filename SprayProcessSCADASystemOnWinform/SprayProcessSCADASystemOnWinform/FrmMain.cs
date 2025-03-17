@@ -10,6 +10,7 @@ using MiniExcelLibs;
 using Model;
 using SprayProcessSCADASystemOnWinform.UserControls;
 using Sunny.UI;
+using Yale.SprayProcessSCADASystem;
 using Timer = System.Timers.Timer;
 namespace SprayProcessSCADASystemOnWinform {
     //当你多次请求 SingletonService，它都会返回同一个实例：
@@ -19,6 +20,9 @@ namespace SprayProcessSCADASystemOnWinform {
         private readonly ILogger<FrmMain> logger;
         private readonly UserManager userManager;
         private readonly AuthManager authManager;
+        private readonly DataManager dataManager;
+        private bool isFirst = true;
+        private bool isConnectFirst = true;
         private bool plcIsConnected = false;
         private Timer timer = new Timer();
         private CancellationTokenSource cts = new CancellationTokenSource();
@@ -39,18 +43,25 @@ namespace SprayProcessSCADASystemOnWinform {
         #endregion
 
         #region 初始化
-        public FrmMain(ILogger<FrmMain> logger, UserManager userManager, AuthManager authManager) {
+        public FrmMain(ILogger<FrmMain> logger, UserManager userManager, AuthManager authManager, DataManager dataManager) {
             InitializeComponent();
             //用代码调试的方式创建一个config.ini文件，创建完成后就可以删掉
             // Globals.IniFile.Write("PLC参数", "变量地址表", Application.StartupPath + "\\PLC_Var_config.xlsx");
             this.logger = logger;
             this.userManager = userManager;
             this.authManager = authManager;
+            this.dataManager = dataManager;
             this.lbl_User.Text = "访客";
-            Init();
+            //Init();
             this.Closed += (s, e) => {
                 Globals.SiemensClient.Close();
             };
+
+        }
+        private void FrmMain_Shown(object sender, EventArgs e) {
+            Globals.ServiceProvider.GetRequiredService<FromStartLoad>().OpenFormThread();
+            Init();
+
 
         }
         public override void Init() {
@@ -66,6 +77,9 @@ namespace SprayProcessSCADASystemOnWinform {
         }
 
         private void InitOther() {
+            if (Globals.SaveDay != "不清理") {
+                DelFile.DeleteFolder(Globals.DelFilePath, Globals.SaveDay.ToInt());
+            }
             timer.Interval = 1000;
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
@@ -73,12 +87,14 @@ namespace SprayProcessSCADASystemOnWinform {
 
         private void Timer_Elapsed(object? sender, System.Timers.ElapsedEventArgs e) {
             if (!plcIsConnected) {
+                Globals.ServiceProvider.GetRequiredService<FromStartLoad>().CloseFormThread();
+
                 return;
             }
             //InvokeRequired 用于判断 当前代码是否运行在 UI 线程。如果 true，说明当前代码在非 UI 线程运行，需要用 Invoke 切回 UI 线程
             if (this.InvokeRequired) {
                 //让 UI 线程执行代码
-                this.Invoke(() => {
+                this.Invoke(async () => {
 
                     this.lbl_ProducteCount.Text = Globals.DataDic[lbl_ProducteCount.TagString].ToString();
                     this.lbl_BadCount.Text = Globals.DataDic[lbl_BadCount.TagString].ToString();
@@ -97,17 +113,6 @@ namespace SprayProcessSCADASystemOnWinform {
                     //时间
                     this.lbl_Time.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
-                    //报警
-                    //this.lbl_TotalAlarm.Text =  CheckAlarms(alarmList).Count.ToString();
-
-
-
-                    //if (this.lbl_TotalAlarm.Text.ToString() != "0") {
-                    //    led_ProducteState.On = !led_ProducteState.On;
-                    //    st_AlarmInfo
-                    //} else {
-                    //    led_ProducteState.On = true;
-                    //}
                     List<string> alarmInfos = CheckAlarms(alarmList);
                     this.lbl_TotalAlarm.Text = alarmInfos.Count.ToString();
                     string alarms = string.Join(",", alarmInfos);
@@ -126,7 +131,27 @@ namespace SprayProcessSCADASystemOnWinform {
                         this.led_ProducteState.Blink = true;
 
                     }
+                    AddDataDto addDataDto = new AddDataDto();
+                    addDataDto.InsertTime = DateTime.Now;
+                    //通过反射过滤和添加数据
+                    foreach (var item in Globals.SelfList) {
+                        var type = typeof(AddDataDto).GetProperty(item).PropertyType.Name;
+                        if (type == "String") {
+                            addDataDto.GetType().GetProperty(item).SetValue(addDataDto, Globals.DataDic[item].ToString());
+                        }
+
+                    }
+                    var res = await dataManager.AddDataAsync(addDataDto);
+                    if (res.Status == SystemEnums.Result.Fail) {
+                        LogExtension.ShowMessage?.Invoke(res.Message, Microsoft.Extensions.Logging.LogLevel.Error);
+                    }
+                    if (isFirst) {
+                        Globals.ServiceProvider.GetRequiredService<FromStartLoad>().CloseFormThread();
+                        isFirst = false;
+                    }
+
                 });
+
             } else {
                 this.lbl_ProducteCount.Text = Globals.DataDic[lbl_ProducteCount.TagString].ToString();
                 this.lbl_BadCount.Text = Globals.DataDic[lbl_BadCount.TagString].ToString();
@@ -136,8 +161,9 @@ namespace SprayProcessSCADASystemOnWinform {
             }
 
 
+
         }
-               private List<string> CheckAlarms(List<string> alarmList) {
+        private List<string> CheckAlarms(List<string> alarmList) {
             List<string> alarmInfos = new List<string>();
             foreach (var alarm in alarmList) {
                 if (Globals.DataDic[alarm].ToString() == "1") {
@@ -164,7 +190,11 @@ namespace SprayProcessSCADASystemOnWinform {
             Globals.ReadTimeInterval = Globals.IniFile.ReadInt("PLC参数", "读取时间间隔", 500);
             //读取plc重连超时时间
             Globals.ReConnectTimeInterval = Globals.IniFile.ReadInt("PLC参数", "重连时间间隔", 3000);
-
+            //删除文件夹
+            Globals.DelFilePath = Globals.IniFile.ReadString("系统参数", "删除文件夹路径", Path.Combine(Application.StartupPath, "Logs"));
+            Globals.SaveDay = Globals.IniFile.ReadString("系统参数", "保存文件夹天数", "7天");
+            Globals.SoftwareVersion = Globals.IniFile.ReadString("软件参数", "软件版本", "V1.0");
+            Globals.SoftTime = Globals.IniFile.ReadString("软件参数", "试用时间", "100");
             logger.LogInformation("读取INI配置文件成功");
         }
 
@@ -181,10 +211,18 @@ namespace SprayProcessSCADASystemOnWinform {
                 Globals.DataDic.Add(item.名称, "NA");
                 //初始化变量写入字典  名词-地址
                 Globals.WriteDic.Add(item.名称, item.PLC地址);
+                //初始化需要保存的变量
+                if (item.是否保存.ToLower() == "true") {
+                    Globals.SelfList.Add(item.名称);
+                }
                 //添加报警集和
                 if (item.名称.EndsWith("报警") && !item.名称.Equals("累计报警")) {
                     alarmList.Add(item.名称);
                 }
+
+
+
+
             }
             //初始化PLC  西门子客户端
             Globals.SiemensClient = new IoTClient.Clients.PLC.SiemensClient(Globals.CpuType, Globals.IPAddress, Globals.Port, Globals.Slot, Globals.Rack, Globals.ConnectTimeOut);
@@ -198,7 +236,6 @@ namespace SprayProcessSCADASystemOnWinform {
             } else {
                 plcIsConnected = false;
                 led_PlcState.On = false;
-                return;
             }
 
             logger.LogInformation("初始化PLC客户端成功");
@@ -230,7 +267,10 @@ namespace SprayProcessSCADASystemOnWinform {
                             await Task.Delay(Globals.ReadTimeInterval);
 
                         } else {
-
+                            if (isConnectFirst) {
+                                isConnectFirst = false;
+                                Globals.ServiceProvider.GetRequiredService<FromStartLoad>().CloseFormThread();
+                            }
                             //如果没连上，那就重连plc
                             var reConnectResult = Globals.SiemensClient.Open();
                             if (reConnectResult.IsSucceed) {
@@ -394,6 +434,7 @@ namespace SprayProcessSCADASystemOnWinform {
             }
         }
 
+
         /// <summary>
         /// 点击一次侧边栏模块，就查找该用户是否有这个模块的权限
         /// </summary>
@@ -413,8 +454,6 @@ namespace SprayProcessSCADASystemOnWinform {
                     }
                 }
             }
-
-
         }
 
         private void UpdateControlAccess(string modeName, QueryAuthResultDto authDto, Dictionary<string, Control> pageControls) {
@@ -464,7 +503,21 @@ namespace SprayProcessSCADASystemOnWinform {
                 timer.Dispose();  // 释放 Timer 资源
                 timer = null;
             }
+            //关闭plc连接
+            if (Globals.SiemensClient != null) {
+                Globals.SiemensClient.Close();
+            }
+            //关闭日志
+            logger.LogInformation("关闭系统");
         }
+        protected override CreateParams CreateParams {
+            get {
+                CreateParams paras = base.CreateParams;
+                paras.ExStyle |= 0x02000000;
+                return paras;
+            }
+        }
+
     }
 
 }

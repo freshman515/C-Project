@@ -645,6 +645,7 @@
             Text = "Form1";
             ZoomScaleRect = new Rectangle(30, 30, 800, 450);
             FormClosed += FrmMain_FormClosed;
+            Shown += FrmMain_Shown;
             Footer.ResumeLayout(false);
             Header.ResumeLayout(false);
             uiPanel1.ResumeLayout(false);
