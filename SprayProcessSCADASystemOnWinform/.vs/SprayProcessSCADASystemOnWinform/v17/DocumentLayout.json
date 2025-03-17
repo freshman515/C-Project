@@ -186,7 +186,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -203,19 +203,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\LoginForm.cs",
-              "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\UserControls\\LoginForm.cs",
-              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\LoginForm.cs",
-              "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\UserControls\\LoginForm.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T15:36:26.941Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -240,7 +227,8 @@
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageSystemParameterSet.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAxwGoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T12:21:42.886Z"
+              "WhenOpened": "2025-03-16T12:21:42.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -252,8 +240,7 @@
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Globals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T06:19:07.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T06:19:07.649Z"
             },
             {
               "$type": "Document",
@@ -263,9 +250,22 @@
               "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\Program.cs",
               "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\Program.cs",
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwB8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAA2wB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T13:24:49.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\LoginForm.cs",
+              "RelativeDocumentMoniker": "SprayProcessSCADASystemOnWinform\\UserControls\\LoginForm.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\SprayProcessSCADASystemOnWinform\\SprayProcessSCADASystemOnWinform\\UserControls\\LoginForm.cs",
+              "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\UserControls\\LoginForm.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:36:26.941Z",
               "EditorCaption": ""
             },
             {
@@ -369,7 +369,8 @@
               "RelativeToolTip": "SprayProcessSCADASystemOnWinform\\Pages\\PageChartManage.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAA0wGAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T11:49:49.417Z"
+              "WhenOpened": "2025-03-16T11:49:49.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
