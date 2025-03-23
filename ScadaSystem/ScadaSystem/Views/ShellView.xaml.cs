@@ -46,8 +46,8 @@ namespace ScadaSystem.Views {
                 SetWindowLocation();
             });
 
+            //点击切换用户跳转的页面
             WeakReferenceMessenger.Default.Register<ChangeUserMessage>(this, (sender, arg) => {
-
                 UserSession.CurrentUser = new UserEntity() {
                     Username = "test",
                     Password = "test",

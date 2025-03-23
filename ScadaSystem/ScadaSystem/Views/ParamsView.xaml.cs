@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using ScadaSystem.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +22,11 @@ namespace ScadaSystem.Views {
     public partial class ParamsView : UserControl, IInjectable {
         public ParamsView() {
             InitializeComponent();
+            InitData();
+        }
+
+        private void InitData() {
+            DataContext = App.Services.GetService<ParamsViewModel>();
         }
     }
 }

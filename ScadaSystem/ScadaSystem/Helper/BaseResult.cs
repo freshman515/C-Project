@@ -30,6 +30,8 @@ namespace ScadaSystem.Helper {
         }
 
         public List<T> Data { get; set; }
+        public int TotalPages { get; set; } = 1;//总页数
+        public int TotalNumber { get; set; } = 1;//总条数
     }
 
 }

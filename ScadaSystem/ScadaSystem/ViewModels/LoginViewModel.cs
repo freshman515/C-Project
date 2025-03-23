@@ -30,7 +30,7 @@ namespace ScadaSystem.ViewModels {
         [RelayCommand]
         void Login() {
             if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password)) {
-                MessageBox.Show("用户名或密码为空");
+                UserSession.ShowMessage("用户名或密码为空",MessageBoxButton.OK);
                 return;
             }
             var user = SqlSugarHelper.Db.Queryable<UserEntity>().
@@ -39,13 +39,13 @@ namespace ScadaSystem.ViewModels {
                 
                 //对当前用户进行缓存
                 UserSession.CurrentUser = user;
-                MessageBox.Show("登录成功");
+                UserSession.ShowMessage("登录成功");
 
                 //进行跳转到主界面 消息通知
                 WeakReferenceMessenger.Default.Send(new LoginMessage(user));
                 
             } else {
-                MessageBox.Show("用户名或密码错误");
+                UserSession.ShowMessage("用户名或密码错误");
             }
 
         }

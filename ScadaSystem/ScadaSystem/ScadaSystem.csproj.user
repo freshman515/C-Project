@@ -7,6 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Usc\Dialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Usc\PaginationControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Usc\StatusIndicatorContorl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\ChartView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -34,9 +43,6 @@
     <Compile Update="Views\ParamsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\ReportView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Views\ShellView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -52,6 +58,15 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\TextBlockStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Usc\Dialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Usc\PaginationControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Usc\StatusIndicatorContorl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ChartView.xaml">
@@ -79,9 +94,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ParamsView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\ReportView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ShellView.xaml">

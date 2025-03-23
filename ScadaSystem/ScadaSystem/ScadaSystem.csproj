@@ -9,7 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\bg.png" />
+    <None Remove="Images\pt.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="FastReport.Compat" Version="2024.2.15" />
+    <PackageReference Include="FastReport.DataVisualization" Version="2024.2.15" />
     <PackageReference Include="HslCommunication" Version="12.2.0" />
     <PackageReference Include="Mapster" Version="7.4.0" />
     <PackageReference Include="Masuit.Tools.Core" Version="2025.1.7" />
@@ -21,11 +28,38 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.3" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.3" />
+    <PackageReference Include="MiniExcel" Version="1.39.0" />
     <PackageReference Include="NLog.Extensions.Logging" Version="5.4.0" />
     <PackageReference Include="SqlSugarCore" Version="5.1.4.182" />
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="FastReport">
+      <HintPath>bin\Debug\net8.0-windows\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars">
+      <HintPath>bin\Debug\net8.0-windows\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor">
+      <HintPath>bin\Debug\net8.0-windows\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.VSDesign">
+      <HintPath>bin\Debug\net8.0-windows\FastReport.VSDesign.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\bg.png" />
+    <Resource Include="Images\pt.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Configs\appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Configs\report.frx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Configs\TulingRead.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

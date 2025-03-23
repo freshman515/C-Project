@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ScadaSystem.ViewModels {
-    public class IndexViewModel :ObservableObject,IInjectable{
+    public partial class IndexViewModel :ObservableObject,IInjectable{
+
     }
 }

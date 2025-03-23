@@ -6,30 +6,22 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ScadaSystem.Helper {
-    public class SqlSugarHelper {
-        public static SqlSugarClient Db = new SqlSugarClient(new ConnectionConfig() {
-            ConnectionString = "server=localhost;Database=scadawpf;Uid=root;Pwd=root",
-            DbType = DbType.MySql,
-            IsAutoCloseConnection = true,
-        },
-        //创建数据库对象 (用法和EF Dappper一样通过new保证线程安全)
-              db => {
+    public static class SqlSugarHelper {
+        public static SqlSugarClient Db { get; set; }
+        public static void AddSqlSugarSetup(DbType dbType, string connectString) {
+            Db = new SqlSugarClient(new ConnectionConfig() {
+                ConnectionString = connectString,
+                DbType = dbType,
+                IsAutoCloseConnection = true,
+            },
+                  db => {
 
-                  db.Aop.OnLogExecuting = (sql, pars) => {
+                    db.Aop.OnLogExecuting = (sql, pars) => {
 
-                      //获取原生SQL推荐 5.1.4.63  性能OK
-                      Console.WriteLine(UtilMethods.GetNativeSql(sql, pars));
-
-                      //获取无参数化SQL 对性能有影响，特别大的SQL参数多的，调试使用
-                      //Console.WriteLine(UtilMethods.GetSqlString(DbType.SqlServer,sql,pars))
-
-
-                  };
-
-                  //注意多租户 有几个设置几个
-                  //db.GetConnection(i).Aop
-
-              });
-
+                     //获取原生SQL推荐 5.1.4.63  性能OK
+                         Console.WriteLine(UtilMethods.GetNativeSql(sql, pars));
+                   };
+                  });
+        }
     }
 }

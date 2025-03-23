@@ -7,6 +7,7 @@ using ScadaSystem.Helper.Dtos;
 using ScadaSystem.Manager;
 using ScadaSystem.Models;
 using ScadaSystem.Services;
+using ScadaSystem.Usc;
 using ScadaSystem.Views;
 using System;
 using System.Collections.Generic;
@@ -46,7 +47,7 @@ namespace ScadaSystem.ViewModels {
         async void Add() {
             //判断用户权限
             if (UserSession.CurrentUser.Role != 0) {
-                MessageBox.Show("当前用户不是管理员，没有添加用户权限!");
+                UserSession.ShowMessage("当前用户不是管理员，没有添加用户权限!");
                 return;
             }
             var Entity = new UserEntity();
@@ -55,16 +56,16 @@ namespace ScadaSystem.ViewModels {
             if (res) {
                 //插入用户
                 if (Entity.Role > 1) {
-                    MessageBox.Show("输入权限有误", "错误");
+                    UserSession.ShowMessage("输入权限有误");
                     return;
                 }
                 var dto = Entity.Adapt<UserAddDto>();
                 var resAdd = await UserManager.AddUserAsync(dto);
                 if (resAdd.Status) {
                     Search();
-                    MessageBox.Show("添加成功");
+                    UserSession.ShowMessage("添加成功");
                 } else {
-                    MessageBox.Show(resAdd.Message);
+                    UserSession.ShowMessage(resAdd.Message);
                 }
             }
             //    var res = await UserManager.AddUserAsync(new UserAddDto() { Username = "xmf", Password = "123", Role = 1 });
@@ -72,27 +73,28 @@ namespace ScadaSystem.ViewModels {
         [RelayCommand]
         async void Delete(UserEntity userEntity) {
             if (UserSession.CurrentUser.Role != 0) {
-                MessageBox.Show("当前用户不是管理员，没有删除用户权限!");
+                UserSession.ShowMessage("当前用户不是管理员，没有删除用户权限!");
                 return;
             }
             if (UserSession.CurrentUser.Username == userEntity.Username) {
-                MessageBox.Show("不能删除自己!");
+                UserSession.ShowMessage("不能删除自己!");
                 return;
             }
-            if (MessageBox.Show( $"确认删除{userEntity.Username}吗", "提醒",MessageBoxButton.OKCancel) == MessageBoxResult.OK) {
+            var result =(bool)await DialogHost.Show(new Dialog($"确认删除{userEntity.Username}吗", MessageBoxButton.YesNo), "ShellDialog");
+            if (result) {
                 var res = await UserManager.DeleteUserAsync(userEntity.Adapt<UserDeleteDto>());
                 if (res.Status) {
-                    MessageBox.Show("删除成功");
+                    UserSession.ShowMessage("删除成功");
                     Search();
                 } else {
-                    MessageBox.Show(res.Message);
+                    UserSession.ShowMessage(res.Message);
                 }
             }
         }
         [RelayCommand]
         async void Modify(UserEntity userEntity) {
             if (UserSession.CurrentUser.Role != 0) {
-                MessageBox.Show("当前用户不是管理员，没有修改用户权限!");
+                UserSession.ShowMessage("当前用户不是管理员，没有修改用户权限!");
                 return;
             }
             var userClone = userEntity.DeepClone();
@@ -102,10 +104,11 @@ namespace ScadaSystem.ViewModels {
                 userEntity = userClone.Adapt<UserEntity>();
                 var res = await UserManager.UpdateUserAsync(userEntity.Adapt<UserUpdateDto>());
                 if (res.Status) {
-                    MessageBox.Show("修改成功");
+                    UserSession.ShowMessage("修改成功");
+                    UserSession.CurrentUser.Role = userEntity.Role;
                     Search();
                 } else {
-                    MessageBox.Show(res.Message);
+                    UserSession.ShowMessage(res.Message);
                 }
             }
         }

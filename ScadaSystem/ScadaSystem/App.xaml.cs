@@ -1,6 +1,12 @@
 ﻿using ControlzEx.Theming;
 using MahApps.Metro.Controls;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using NLog;
+using NLog.Extensions.Logging;
+using ScadaSystem.Helper;
+using ScadaSystem.Models;
 using ScadaSystem.Services;
 using ScadaSystem.ViewModels;
 using ScadaSystem.Views;
@@ -48,6 +54,9 @@ namespace ScadaSystem {
             //    }
             //}
 
+            //配置类注入
+            ConfigureJsonByBinder(service);
+
             //依赖注入ViewModel和View
             foreach (var type in assembly.GetTypes()) {
                 if (typeof(UserControl).IsAssignableFrom(type) || typeof(MetroWindow).IsAssignableFrom(type)) {
@@ -58,7 +67,52 @@ namespace ScadaSystem {
                 }
             }
 
+            
+
             return service.BuildServiceProvider();
+        }
+
+        //将json文件的参数映射到RootParam类上
+        private void ConfigureJsonByBinder(ServiceCollection service) {
+            var cfgBuilder = new ConfigurationBuilder().SetBasePath(Environment.CurrentDirectory + "\\Configs")
+                .AddJsonFile("appsettings.json", false, true);
+
+            var configuration = cfgBuilder.Build();
+
+
+
+            // 1、注入日志类 ILogger<T> 
+            service.AddSingleton<IConfiguration>(configuration).AddLogging(log => {
+                log.ClearProviders();
+                log.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+                log.AddNLog();
+            });
+            var nLogConfig = configuration.GetSection("Nlog");
+            LogManager.Configuration = new NLogLoggingConfiguration(nLogConfig);
+
+            //改造SQLSugarHelper
+            var parseResult = Enum.TryParse<SqlSugar.DbType>(configuration["SqlParam:DbType"],out var dbType);
+            var connectionString = configuration["SqlParam:ConnectionString"];
+            if (parseResult == true) { 
+                SqlSugarHelper.AddSqlSugarSetup(dbType, connectionString);
+            }
+
+            //3、参数配置及映射 IOptionsSnapshot<RootParam>
+            service.AddOptions()
+                .Configure<RootParam>(e => configuration.Bind(e))
+                .Configure<SqlParam>(e => configuration.GetSection("SqlParam").Bind(e))
+                .Configure<SystemParam>(e => configuration.GetSection("SystemParam").Bind(e))
+                .Configure<PlcParam>(e => configuration.GetSection("PlcParam").Bind(e));
+                
+
+
+
+
+
+
+
+
+
         }
     }
 

@@ -3,22 +3,25 @@
         <Setter Property="Background" Value="Transparent" />
         <Setter Property="BorderBrush" Value="DimGray" />
         <Setter Property="Foreground" Value="Black" />
-        <Setter Property="Width" Value="100" />
-        <Setter Property="Height" Value="40" />
         <Setter Property="Padding" Value="5" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            Padding="{TemplateBinding Padding}"
-                            BorderThickness="2"
-                            CornerRadius="7">
-                        <ContentPresenter HorizontalAlignment="Center"
-                                          VerticalAlignment="Center" />
+                    <Border
+                        Padding="{TemplateBinding Padding}"
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="2"
+                        CornerRadius="7">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
                     </Border>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="DimGray" />
+            </Trigger>
+        </Style.Triggers>
     </Style>
 </ResourceDictionary>
