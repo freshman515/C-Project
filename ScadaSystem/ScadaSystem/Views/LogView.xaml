@@ -8,9 +8,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
     xmlns:vm="clr-namespace:ScadaSystem.ViewModels"
-    d:DataContext="{d:DesignInstance vm:LoginViewModel}"
-    d:DesignHeight="450"
-    d:DesignWidth="800"
+    d:DataContext="{d:DesignInstance vm:LogViewModel}"
+    d:DesignHeight="800"
+    d:DesignWidth="1200"
     Background="{DynamicResource MaterialDesign.Brush.Background}"
     FontFamily="Microsoft YaHei"
     FontSize="16"
@@ -18,5 +18,107 @@
     TextElement.FontWeight="Regular"
     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
     mc:Ignorable="d">
-    <Grid />
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Border
+            Grid.Column="0"
+            BorderBrush="#546e7a"
+            BorderThickness="1">
+            <StackPanel>
+                <TextBlock
+                    Background="#54637a"
+                    FontSize="16"
+                    Foreground="White"
+                    Text="日志控制台"
+                    TextAlignment="Center" />
+                <StackPanel
+                    Margin="0,5"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    Background="#54647a"
+                    Orientation="Horizontal">
+                    <md:PackIcon
+                        Width="40"
+                        Height="40"
+                        Margin="5"
+                        VerticalAlignment="Center"
+                        FontSize="20"
+                        Foreground="White"
+                        Kind="FolderInformation" />
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="35"
+                        Foreground="White"
+                        Text="显示一周日志">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="MouseLeftButtonDown">
+                                <i:InvokeCommandAction Command="{Binding OpenLogFolderCommand}" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </TextBlock>
+                </StackPanel>
+
+                <!--  显示所有日志文件名  -->
+                <StackPanel Margin="5">
+                    <ListView
+                        ItemsSource="{Binding LogFiles}"
+                        ScrollViewer.VerticalScrollBarVisibility="Auto"
+                        SelectedItem="{Binding SelectedLogFile}">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="文件名" />
+                                <GridViewColumn DisplayMemberBinding="{Binding LastWriteTime}" Header="修改时间" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </StackPanel>
+            </StackPanel>
+
+        </Border>
+        <Border
+            Grid.Column="1"
+            BorderBrush="#546e7a"
+            BorderThickness="1">
+
+            <DockPanel>
+                <TextBlock
+                    DockPanel.Dock="Top"
+                    Background="#54637a"
+                    FontSize="16"
+                    Foreground="White"
+                    Text="日志内容"
+                    TextAlignment="Center" />
+
+                <!--  显示所有日志内容  -->
+                <StackPanel Margin="5">
+                    <ListView ItemsSource="{Binding LogEntries}" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn
+                                    Width="200"
+                                    DisplayMemberBinding="{Binding TimeStamp}"
+                                    Header="时间" />
+                                <GridViewColumn
+                                    Width="100"
+                                    DisplayMemberBinding="{Binding Level}"
+                                    Header="级别" />
+                                <GridViewColumn
+                                    Width="150"
+                                    DisplayMemberBinding="{Binding Logger}"
+                                    Header="来源" />
+                                <GridViewColumn
+                                    Width="150"
+                                    DisplayMemberBinding="{Binding Message}"
+                                    Header="内容" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+    </Grid>
 </UserControl>

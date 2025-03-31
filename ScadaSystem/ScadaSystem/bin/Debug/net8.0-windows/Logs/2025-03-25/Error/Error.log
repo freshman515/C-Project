@@ -1,0 +1,24 @@
+2025-03-25 10:44:53.0650|ERROR|ScadaSystem.Helper.GlobalConfig|The CancellationTokenSource has been disposed. 
+2025-03-25 10:49:31.8982|ERROR|ScadaSystem.Helper.GlobalConfig|The CancellationTokenSource has been disposed. 
+2025-03-25 10:50:01.4481|ERROR|ScadaSystem.Helper.GlobalConfig|A task was canceled. 
+2025-03-25 10:52:20.8947|ERROR|ScadaSystem.Helper.GlobalConfig|A task was canceled. 
+2025-03-25 10:53:43.8245|ERROR|ScadaSystem.Helper.GlobalConfig|A task was canceled. 
+2025-03-25 11:12:43.5057|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:13:26.0708|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:13:36.5065|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:13:47.4371|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:14:26.8133|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:14:31.8743|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:14:37.7449|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:14:43.8277|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:14:50.3494|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:14:55.7429|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:15:01.9212|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:15:07.3412|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:15:12.3748|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:15:18.8743|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:15:25.9203|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:16:51.5487|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:17:00.9282|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:17:33.6599|ERROR|ScadaSystem.Helper.GlobalConfig|数据读取失败 
+2025-03-25 11:23:49.3403|ERROR|ScadaSystem.Helper.GlobalConfig|A task was canceled. 

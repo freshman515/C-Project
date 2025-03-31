@@ -57,6 +57,9 @@ namespace ScadaSystem {
             //配置类注入
             ConfigureJsonByBinder(service);
 
+            //注入GlobalConfig
+            service.AddSingleton<GlobalConfig>();
+
             //依赖注入ViewModel和View
             foreach (var type in assembly.GetTypes()) {
                 if (typeof(UserControl).IsAssignableFrom(type) || typeof(MetroWindow).IsAssignableFrom(type)) {
@@ -103,16 +106,7 @@ namespace ScadaSystem {
                 .Configure<SqlParam>(e => configuration.GetSection("SqlParam").Bind(e))
                 .Configure<SystemParam>(e => configuration.GetSection("SystemParam").Bind(e))
                 .Configure<PlcParam>(e => configuration.GetSection("PlcParam").Bind(e));
-                
-
-
-
-
-
-
-
-
-
+           
         }
     }
 

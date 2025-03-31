@@ -234,3 +234,5 @@ D:\pragma\C# Project\ScadaSystem\ScadaSystem\obj\Debug\net8.0-windows\Usc\Dialog
 D:\pragma\C# Project\ScadaSystem\ScadaSystem\obj\Debug\net8.0-windows\Usc\Dialog.baml
 D:\pragma\C# Project\ScadaSystem\ScadaSystem\obj\Debug\net8.0-windows\Usc\StatusIndicatorContorl.g.cs
 D:\pragma\C# Project\ScadaSystem\ScadaSystem\obj\Debug\net8.0-windows\Usc\StatusIndicatorContorl.baml
+D:\pragma\C# Project\ScadaSystem\ScadaSystem\bin\Debug\net8.0-windows\ValueConverters.dll
+D:\pragma\C# Project\ScadaSystem\ScadaSystem\bin\Debug\net8.0-windows\ValueConverters.Annotations.dll

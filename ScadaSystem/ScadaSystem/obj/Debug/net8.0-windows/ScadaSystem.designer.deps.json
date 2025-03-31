@@ -1709,6 +1709,25 @@
           }
         }
       },
+      "ValueConverters/3.1.22": {
+        "dependencies": {
+          "ValueConverters.Annotations": "3.1.22"
+        },
+        "runtime": {
+          "lib/net8.0-windows7/ValueConverters.dll": {
+            "assemblyVersion": "3.1.22.0",
+            "fileVersion": "3.1.22.0"
+          }
+        }
+      },
+      "ValueConverters.Annotations/3.1.22": {
+        "runtime": {
+          "lib/netstandard2.0/ValueConverters.Annotations.dll": {
+            "assemblyVersion": "3.1.22.0",
+            "fileVersion": "3.1.22.0"
+          }
+        }
+      },
       "ZstdSharp.Port/0.8.4": {
         "runtime": {
           "lib/net8.0/ZstdSharp.dll": {
@@ -2622,6 +2641,20 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "ValueConverters/3.1.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oBoA0YyrZrQg+MRw5yj/2/GFnNeAjug0emIjAkE3DZ0/nr8NFNH7EuermpzCbZR6CHVx4Gz5iNJwPTLkyndeJQ==",
+      "path": "valueconverters/3.1.22",
+      "hashPath": "valueconverters.3.1.22.nupkg.sha512"
+    },
+    "ValueConverters.Annotations/3.1.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YXc3E1d0Q43jFsCf+o5SFOS5SoTGlfj7x7iu3G21D/p+bshy5+F8/f3Q9BzOLQp1AmVbcznpcQZVHu3QmTm49w==",
+      "path": "valueconverters.annotations/3.1.22",
+      "hashPath": "valueconverters.annotations.3.1.22.nupkg.sha512"
     },
     "ZstdSharp.Port/0.8.4": {
       "type": "package",

@@ -17,13 +17,14 @@ namespace ScadaSystem.ViewModels {
         /// 初始化数据库 codefirst 创建表及初始数据
         /// </summary>
         private void InitDate() {
-            if (false) {
+            if (true) {
                 //建库
                 // SqlSugarHelper.Db.DbMaintenance.CreateDatabase();
                 //建表
                 //SqlSugarHelper.Db.CodeFirst.InitTables<UserEntity>();
                 //SqlSugarHelper.Db.CodeFirst.InitTables<MenuEntity>();
-                SqlSugarHelper.Db.CodeFirst.InitTables<ScadaReadDataEntity>();
+                //SqlSugarHelper.Db.CodeFirst.InitTables<ScadaReadDataEntity>();
+                SqlSugarHelper.Db.CodeFirst.InitTables<FormulaEntity>();
             }
             //插入一些用户表数据
             if (false) {
@@ -70,6 +71,36 @@ namespace ScadaSystem.ViewModels {
                     scadaReadDataList.Add(scadaReadData);
                 }
                 SqlSugarHelper.Db.Insertable(scadaReadDataList).ExecuteCommand();
+            }
+            if (false   ) {
+                var random = new Random();
+                var formulas = new List<FormulaEntity>();
+
+                for (int i = 1; i <= 10; i++) {
+                    formulas.Add(new FormulaEntity {
+                        Name = $"Formula {i}",
+                        IsSelected=false,
+                        Description = $"Randomly generated formula {i}",
+                        DegreasingSetPressureUpperLimit = (float)(random.NextDouble() * 10 + 5), // 5~15 之间
+                        DegreasingSetPressureLowerLimit = (float)(random.NextDouble() * 5 + 2),  // 2~7 之间
+                        RoughWashingSprayPumpOverloadUpperLimit = (float)(random.NextDouble() * 10 + 10), // 10~20
+                        RoughWashingLevelLowerLimit = (float)(random.NextDouble() * 3 + 1), // 1~4
+                        CeramicCoatingSprayPumpOverloadUpperLimit = (float)(random.NextDouble() * 5 + 8), // 8~13
+                        FineWashingSprayPumpOverloadUpperLimit = (float)(random.NextDouble() * 5 + 7), // 7~12
+                        FineWashingLevelLowerLimit = (float)(random.NextDouble() * 3 + 2), // 2~5
+                        MoistureFurnaceTemperatureUpperLimit = (float)(random.NextDouble() * 50 + 150), // 150~200
+                        MoistureFurnaceTemperatureLowerLimit = (float)(random.NextDouble() * 30 + 120), // 120~150
+                        CoolingRoomCentrifugalFanOverloadUpperLimit = (float)(random.NextDouble() * 10 + 10), // 10~20
+                        CuringOvenTemperatureUpperLimit = (float)(random.NextDouble() * 50 + 180), // 180~230
+                        CuringOvenTemperatureLowerLimit = (float)(random.NextDouble() * 30 + 160), // 160~190
+                        ConveyorSetSpeed = (float)(random.NextDouble() * 5 + 3), // 3~8
+                        ConveyorSetFrequency = (float)(random.NextDouble() * 20 + 40),// 40~60
+                        CreateTime = DateTime.Now,
+                        UpdateTime = DateTime.Now
+                    });
+                }
+                SqlSugarHelper.Db.Insertable<FormulaEntity>(formulas).ExecuteCommand();
+                 
             }
         }
         private float GetRandomFloat(float min, float max) { 

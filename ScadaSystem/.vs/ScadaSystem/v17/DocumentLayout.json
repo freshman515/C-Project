@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "D:\\pragma\\C# Project\\ScadaSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\views\\indexview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\views\\indexview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\viewmodels\\formulaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\viewmodels\\formulaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\usc\\statusindicatorcontorl.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\usc\\statusindicatorcontorl.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\viewmodels\\paramsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\viewmodels\\paramsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\usc\\statusindicatorcontorl.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\usc\\statusindicatorcontorl.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\views\\formulaview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\views\\formulaview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\note.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
-      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\note.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\models\\formulaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\models\\formulaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\usc\\dialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\usc\\dialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\viewmodels\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\viewmodels\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\viewmodels\\deviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\viewmodels\\deviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\viewmodels\\dataqueryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\viewmodels\\dataqueryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\views\\formulaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\views\\formulaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\viewmodels\\logviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\viewmodels\\logviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\views\\logview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\views\\logview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\views\\logview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\views\\logview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|d:\\pragma\\c# project\\scadasystem\\scadasystem\\helper\\globalconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B66DE7A-5026-4C4E-8F18-37E7FE217898}|ScadaSystem\\ScadaSystem.csproj|solutionrelative:scadasystem\\helper\\globalconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,74 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StatusIndicatorContorl.xaml.cs",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Usc\\StatusIndicatorContorl.xaml.cs",
-              "RelativeDocumentMoniker": "ScadaSystem\\Usc\\StatusIndicatorContorl.xaml.cs",
-              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Usc\\StatusIndicatorContorl.xaml.cs",
-              "RelativeToolTip": "ScadaSystem\\Usc\\StatusIndicatorContorl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T02:46:03.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatusIndicatorContorl.xaml",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Usc\\StatusIndicatorContorl.xaml",
-              "RelativeDocumentMoniker": "ScadaSystem\\Usc\\StatusIndicatorContorl.xaml",
-              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Usc\\StatusIndicatorContorl.xaml",
-              "RelativeToolTip": "ScadaSystem\\Usc\\StatusIndicatorContorl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-23T02:34:08.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "note.md",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\note.md",
-              "RelativeDocumentMoniker": "ScadaSystem\\note.md",
-              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\note.md",
-              "RelativeToolTip": "ScadaSystem\\note.md",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-03-23T02:18:54.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IndexView.xaml",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\IndexView.xaml",
-              "RelativeDocumentMoniker": "ScadaSystem\\Views\\IndexView.xaml",
-              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\IndexView.xaml",
-              "RelativeToolTip": "ScadaSystem\\Views\\IndexView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-23T02:10:15.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IndexViewModel.cs",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\IndexViewModel.cs",
-              "RelativeDocumentMoniker": "ScadaSystem\\ViewModels\\IndexViewModel.cs",
-              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\IndexViewModel.cs",
-              "RelativeToolTip": "ScadaSystem\\ViewModels\\IndexViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T02:09:57.851Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -115,22 +80,173 @@
               "RelativeDocumentMoniker": "ScadaSystem\\ViewModels\\DataQueryViewModel.cs",
               "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\DataQueryViewModel.cs",
               "RelativeToolTip": "ScadaSystem\\ViewModels\\DataQueryViewModel.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAxwGkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAGUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T02:05:18.563Z",
+              "WhenOpened": "2025-03-30T03:01:16.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormulaEntity.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Models\\FormulaEntity.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\Models\\FormulaEntity.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Models\\FormulaEntity.cs",
+              "RelativeToolTip": "ScadaSystem\\Models\\FormulaEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:22:19.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormulaView.xaml.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\FormulaView.xaml.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\Views\\FormulaView.xaml.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\FormulaView.xaml.cs",
+              "RelativeToolTip": "ScadaSystem\\Views\\FormulaView.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:12:18.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormulaView.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\FormulaView.xaml",
+              "RelativeDocumentMoniker": "ScadaSystem\\Views\\FormulaView.xaml",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\FormulaView.xaml",
+              "RelativeToolTip": "ScadaSystem\\Views\\FormulaView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-30T02:11:09.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormulaViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\FormulaViewModel.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\ViewModels\\FormulaViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\FormulaViewModel.cs",
+              "RelativeToolTip": "ScadaSystem\\ViewModels\\FormulaViewModel.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADwv0YAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:10:51.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeviceViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\DeviceViewModel.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\ViewModels\\DeviceViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\DeviceViewModel.cs",
+              "RelativeToolTip": "ScadaSystem\\ViewModels\\DeviceViewModel.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:57:37.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParamsViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\ParamsViewModel.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\ViewModels\\ParamsViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\ParamsViewModel.cs",
+              "RelativeToolTip": "ScadaSystem\\ViewModels\\ParamsViewModel.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:57:42.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Dialog.xaml",
-              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Usc\\Dialog.xaml",
-              "RelativeDocumentMoniker": "ScadaSystem\\Usc\\Dialog.xaml",
-              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Usc\\Dialog.xaml",
-              "RelativeToolTip": "ScadaSystem\\Usc\\Dialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-23T02:04:05.099Z",
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\UserViewModel.cs",
+              "RelativeToolTip": "ScadaSystem\\ViewModels\\UserViewModel.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:58:41.393Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShellViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\ShellViewModel.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\ViewModels\\ShellViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\ShellViewModel.cs",
+              "RelativeToolTip": "ScadaSystem\\ViewModels\\ShellViewModel.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAiwEoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:27:21.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GlobalConfig.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Helper\\GlobalConfig.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\Helper\\GlobalConfig.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Helper\\GlobalConfig.cs",
+              "RelativeToolTip": "ScadaSystem\\Helper\\GlobalConfig.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAywHsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:14:29.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LogView.xaml.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\LogView.xaml.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\Views\\LogView.xaml.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\LogView.xaml.cs",
+              "RelativeToolTip": "ScadaSystem\\Views\\LogView.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T02:34:33.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LogView.xaml",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\LogView.xaml",
+              "RelativeDocumentMoniker": "ScadaSystem\\Views\\LogView.xaml",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Views\\LogView.xaml",
+              "RelativeToolTip": "ScadaSystem\\Views\\LogView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-27T02:21:28.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogViewModel.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\LogViewModel.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\ViewModels\\LogViewModel.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\ViewModels\\LogViewModel.cs",
+              "RelativeToolTip": "ScadaSystem\\ViewModels\\LogViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T02:23:31.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LogEntry.cs",
+              "DocumentMoniker": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Models\\LogEntry.cs",
+              "RelativeDocumentMoniker": "ScadaSystem\\Models\\LogEntry.cs",
+              "ToolTip": "D:\\pragma\\C# Project\\ScadaSystem\\ScadaSystem\\Models\\LogEntry.cs",
+              "RelativeToolTip": "ScadaSystem\\Models\\LogEntry.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAewB4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T06:47:08.204Z"
             }
           ]
         }
